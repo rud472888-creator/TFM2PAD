@@ -1,0 +1,15 @@
+[package]
+name = "tfm2_view_plus_ios"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+mod-api-stable = { path = "../mod-api-stable" }
+
+[profile.release]
+panic = "abort"
+opt-level = 2
+strip = false

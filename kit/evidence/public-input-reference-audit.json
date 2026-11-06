@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "scope": "Public source/input reference audit; read-only comparisons only. Not a full build or device run.",
+  "required_metadata": [
+    {
+      "file": "profiles/local-inputs-v2.json",
+      "consumer": "portkit.py / rebuild_personal_app.py",
+      "purpose": "Exact owned macOS game/Steam SDK/game-data fingerprints; does not carry file content"
+    },
+    {
+      "file": "evidence/ipad-runtime-survey.json",
+      "consumer": "build_loader_boundaries.py --survey",
+      "purpose": "Historical complete raw game dependency/symbol lookup results"
+    },
+    {
+      "file": "evidence/ipad-runtime-survey-baseline.json",
+      "consumer": "reference only",
+      "purpose": "Historical earlier lookup result; use current survey for game boundaries"
+    },
+    {
+      "file": "evidence/steam-runtime-survey-001.json",
+      "consumer": "build_steam_boundaries.py --survey",
+      "purpose": "Historical complete merged eight-image Steam dependency/symbol lookup results"
+    },
+    {
+      "file": "evidence/steam-engine-feasibility.json",
+      "consumer": "stage_steam_client.py / bundle_steam_client.py --profile",
+      "purpose": "Exactly eight allowlisted source image whole/slice fingerprints and sizes"
+    },
+    {
+      "file": "evidence/game-symbol-input.json",
+      "consumer": "probe API survey input schema",
+      "purpose": "Exact static game library/import/class list; build_probe.py can regenerate from owned app"
+    },
+    {
+      "file": "evidence/steam-client-survey-input.json",
+      "consumer": "probe API survey input schema",
+      "purpose": "Exact merged Steam library/import/class list; for explicit fresh survey staging"
+    }
+  ],
+  "validation": {
+    "game_libraries": 19,
+    "game_import_observations": 670,
+    "steam_libraries": 30,
+    "steam_import_observations": 1116,
+    "original_and_public_availability_results_equal": true,
+    "static_and_runtime_import_sets_equal": true,
+    "steam_pin_and_runtime_survey_eight_image_identities_equal": true,
+    "local_game_input_profile_unchanged": true,
+    "quoted_source_includes_checked": 63,
+    "missing_quoted_source_includes": []
+  },
+  "source_groups": {
+    "game_boundary_build": [
+      "compat/DisplayCompat.*",
+      "compat/TFMAppKit.*",
+      "compat/TFMInputGesture.*",
+      "compat/TFMDirectTouch.inc",
+      "compat/TFMGameTextFocus.*",
+      "compat/TFMOpenGL.*",
+      "compat/TFMCoreFoundation.m",
+      "compat/TFMFileSystem.m",
+      "compat/ColorSyncCompat.*",
+      "compat/CoreVideoCompat.*",
+      "compat/AudioCompat.*",
+      "compat/UnimplementedBoundary.h",
+      "compat/steam/SteamIPC*",
+      "compat/steam/SteamSemaphoreCompat.*",
+      "compat/steam/SteamLaunchPolicy.h"
+    ],
+    "steam_boundary_build": [
+      "compat/steam/ClientAppKit.m",
+      "compat/steam/ApplicationServices.m",
+      "compat/steam/CoreGraphics.m",
+      "compat/steam/DiskArbitration.m",
+      "compat/steam/IOBluetooth.m",
+      "compat/steam/LibSystem.m",
+      "compat/steam/AppPresence.h",
+      "compat/steam/constants.json",
+      "compat/steam/SteamDispatchCompat.*",
+      "compat/UnimplementedBoundary.h"
+    ],
+    "probe_build": [
+      "probe/*.[hm]",
+      "compat/DisplayCompat.*",
+      "compat/GLSurface.*",
+      "compat/GL4ESRenderProbe.*",
+      "compat/steam/SteamAppInfo.*",
+      "compat/steam/SteamEngineProbe.*",
+      "compat/steam/SteamCredentialStore.*",
+      "compat/steam/SteamQRAuth.*",
+      "compat/steam/SteamLaunchPolicy.h"
+    ],
+    "metadata_staging": [
+      "vendor/agepad/prepare-de-load-image.py",
+      "vendor/agepad/LICENSE",
+      "tools/steam_init_bridge_build.py",
+      "compat/steam/SteamInitBridge.*",
+      "tools/steam_sdk_client_build.py",
+      "compat/steam/SteamSDKClientBoundary.*"
+    ],
+    "runtime_fixes": [
+      "tools/steam_runtime_fixes.py",
+      "tools/stage_steam_desktop_audio.py",
+      "compat/steam/SteamDesktopAudio.c",
+      "tools/patch_steam_queue.py"
+    ]
+  },
+  "precautions": [
+    "Do not distribute original installed-game bundles, bundle.game_data, Steam client images, GL4ES compiled products, copied icons, signing inputs, saves, app containers, reports with local paths, or runtime/account logs.",
+    "Steam staging --source expects the client Contents directory, with MacOS/ and Frameworks/. It verifies two duplicate Breakpad aliases under MacOS/Frameworks against the canonical pins.",
+    "The pinned AgePad adapter must retain its reviewed SHA256 66b29b82adf8c8b152176e3434f0d370c68592360ff567db934771ffeff1ad0c. Its source is redistributable under the included upstream license.",
+    "GL4ES is a separate unmodified source checkout at bc4314d8369f169d3fa81c5ed1b46b3dba4e74a5; build with tools/build_gl4es.py and retain successful build provenance. No GL4ES binary is included.",
+    "All compiled products go under the standalone checkout’s ignored work directory.",
+    "The build uses the explicit ipad-layout-v7.json profile by default.",
+    "Optional community builds require the matching stable mod SDK from the game.",
+    "Historical surveys observed nonunique hardware model iPad16,6 / iPadOS 27.2. Successful symbol lookup is not proof of ABI, rendering, login, ownership, or gameplay on another OS/device. Never fabricate new survey results.",
+    "The baseline and public sanitized current survey have different file hashes from the private originals because diagnostic text was removed. Rebuild boundary artifacts against the public input, rather than reusing reports pinned to the private JSON bytes."
+  ]
+}

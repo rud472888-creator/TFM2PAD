@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "app_id": "3009300",
+  "status": "observed-inputs-only-not-gameplay-validated",
+  "bundle_version": "0.7.1",
+  "steam_build_id": "26425267",
+  "files": {
+    "game": {
+      "relative_path": "Contents/MacOS/TeamfightManager2",
+      "size": 158372592,
+      "sha256": "84510dcb04de400144af383f668d4ddc80f7e59705eced56fc97c6c155e34505"
+    },
+    "steam_sdk": {
+      "relative_path": "Contents/MacOS/libsteam_api.dylib",
+      "size": 627648,
+      "sha256": "363ab50ce9bf4680d8ddb8c6142e566854803f831769fab0428867b9994d0520"
+    },
+    "data": {
+      "relative_path": "Contents/MacOS/bundle.game_data",
+      "size": 1155943309,
+      "sha256": "3a2bae03024af88a22b9631f717575b083af53df6d9690f7e58275f73a58ea18"
+    }
+  },
+  "upstream": {
+    "repository": "https://github.com/chrissotraidis/agepad",
+    "commit": "c0f7cbdc69d8b1dca87a73a94490c3a65405762f",
+    "adapter_sha256": "66b29b82adf8c8b152176e3434f0d370c68592360ff567db934771ffeff1ad0c"
+  }
+}

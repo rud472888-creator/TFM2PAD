@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "method": "AgePad HostConstants tool reads only public macOS system-framework string variables; no Steam client loaded",
+  "values": {
+    "_NSWorkspaceLaunchConfigurationArguments": "NSWorkspaceLaunchConfigurationArguments",
+    "_NSWorkspaceLaunchConfigurationEnvironment": "NSWorkspaceLaunchConfigurationEnvironment",
+    "_kDADiskDescriptionMediaUUIDKey": "DAMediaUUID"
+  }
+}

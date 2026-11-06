@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "Pinned original Mach-O metadata for isolated genuine helper and SDK probe",
+  "helper": {
+    "image": "TFMSteamIPCHelper.dylib",
+    "original_arm64_sha256": "c0093a41b685bd633b585e9ca1cbe40c7fa9b43397fb6e254019953b1a99936b",
+    "uuid": "e4d6996719f233189427f21f8eda03e1",
+    "original_lc_main_entryoff": 6888,
+    "entry_first64_sha256": "6c78a806a3358e36196a96af00c740d71ae8e23df5a5feffa8aa715b30ec4883",
+    "text_sha256": "7fa3e7c65fcec87df8a72d7d5c0a0400a8e394fb74c294268019f70270d48df2",
+    "process_sigterm_registration": {
+      "signal": 15,
+      "handler_offset": 6860,
+      "callsite_offset": 7016,
+      "return_offset": 7020,
+      "registration_first16_sha256": "4da776cb584b1fa6e21600a39c1bc0736dc02288fae754e3f7cd79a4c3a13d1c",
+      "handler_first28_sha256": "e8333f9dd767f135db0782ae102a7968361978c83a58481f476ac75addc050d9"
+    }
+  },
+  "sdk": {
+    "image": "libsteam_api.dylib",
+    "original_universal_sha256": "363ab50ce9bf4680d8ddb8c6142e566854803f831769fab0428867b9994d0520",
+    "uuid": "fca0302280d73c019d1242b887a94e65",
+    "init_export": "SteamInternal_SteamAPI_Init",
+    "init_offset": 14536,
+    "init_first64_sha256": "19fdea73257a51133d7751403b41b6b691ba77e3ea8da8a8e06390f4023ffea1"
+  },
+  "instructions_changed": false,
+  "authentication_or_ownership_claimed": false
+}

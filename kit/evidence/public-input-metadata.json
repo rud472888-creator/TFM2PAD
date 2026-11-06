@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "purpose": "Inventory of sanitized metadata inputs, containing no executable, image, artwork, save, log, credential, or account payload.",
+  "artifacts": [
+    {
+      "file": "evidence/ipad-runtime-survey.json",
+      "sha256": "cfb74f73fb2e3bbcfa79e9eb12818d664238a033834fb75524f26b69d0cd847b"
+    },
+    {
+      "file": "evidence/ipad-runtime-survey-baseline.json",
+      "sha256": "512c3085ed905a108670869bd3c6b25a509add027ac46923497699bc1ee5deac"
+    },
+    {
+      "file": "evidence/steam-runtime-survey-001.json",
+      "sha256": "f69491b51379379c2fa2f9b49a4372b92657566710701e6bbed4aaece98dfa16"
+    },
+    {
+      "file": "evidence/game-symbol-input.json",
+      "sha256": "8901cac0c1ae38d9d7644492cc75d71bcaaf9bc34716872969432ff5886c4074"
+    },
+    {
+      "file": "evidence/steam-client-survey-input.json",
+      "sha256": "8a93c62a05df7ec510968c8f8b003f5c26e6bec18a47aa306e139a5472ad2d7a"
+    },
+    {
+      "file": "evidence/steam-engine-feasibility.json",
+      "sha256": "cbaf106418786dd70cd7fa96748e644f871a9bf9de1d33462f564b8ea9029ad2"
+    },
+    {
+      "file": "profiles/local-inputs-v2.json",
+      "sha256": "ab8baf00787728a656a618897969e45b7f44790eedb1930112772fa68c916aec"
+    }
+  ]
+}

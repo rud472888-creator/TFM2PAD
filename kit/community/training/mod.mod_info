@@ -1,0 +1,16 @@
+{
+  "mod_id": "tfm2_training_plus_ios",
+  "name": "iPad 훈련 — 챔피언 일괄 배치",
+  "author": "Personal native adaptation; community reference: daram2",
+  "version": "0.1.0",
+  "mod_type": "native",
+  "contains_code": true,
+  "description": "훈련 화면에서 포지션별 근접·원거리·마법·보조·암살 분류를 선택하고 현재 팀의 티어 상위 챔피언 최대 4명을 선수의 개인 훈련에 같은 비율로 배치합니다. 현재 유지·팀 설정 따름을 지원하며 명시적으로 적용할 때만 서버의 훈련 계획을 변경합니다. 서버와 클라이언트의 훈련 계획을 함께 갱신합니다. 열려 있던 개인 훈련 창은 다시 열어 확인해 주세요. 원본 0.7.1 ARM64 코드와 일치하는 빌드에만 적용하며 자동 일일 적용은 포함하지 않습니다.",
+  "last_updated": "2026-11-06",
+  "dependencies": [
+    {
+      "mod_id": "base",
+      "version": ">=0.7.1, <0.7.2"
+    }
+  ]
+}

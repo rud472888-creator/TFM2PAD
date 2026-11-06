@@ -1,0 +1,4485 @@
+{
+  "counts": {
+    "imported_api_or_data_symbols_missing": 41,
+    "imported_symbols_available": 546,
+    "imported_symbols_missing": 42,
+    "imported_symbols_not_tested": 82,
+    "loader_special_symbols_unresolved": 1,
+    "objc_classes_available": 0,
+    "objc_classes_missing": 10
+  },
+  "device": {
+    "hardware": "iPad16,6",
+    "system_name": "iPadOS",
+    "system_version": "27.2"
+  },
+  "libraries": [
+    {
+      "counts": {
+        "available": 2,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+      "provider": "Foundation",
+      "runtime_path": "/System/Library/Frameworks/Foundation.framework/Foundation",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSKeyValueChangeNewKey",
+          "lookup": "NSKeyValueChangeNewKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSKeyValueChangeOldKey",
+          "lookup": "NSKeyValueChangeOldKey",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 242,
+        "missing": 1,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/usr/lib/libSystem.B.dylib",
+      "provider": "libSystem",
+      "runtime_path": "/usr/lib/libSystem.B.dylib",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CCRandomGenerateBytes",
+          "lookup": "CCRandomGenerateBytes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Block_copy",
+          "lookup": "_Block_copy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Block_release",
+          "lookup": "_Block_release",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__DefaultRuneLocale",
+          "lookup": "_DefaultRuneLocale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__NSConcreteStackBlock",
+          "lookup": "_NSConcreteStackBlock",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__NSGetArgc",
+          "lookup": "_NSGetArgc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__NSGetArgv",
+          "lookup": "_NSGetArgv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__NSGetEnviron",
+          "lookup": "_NSGetEnviron",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__NSGetExecutablePath",
+          "lookup": "_NSGetExecutablePath",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_Backtrace",
+          "lookup": "_Unwind_Backtrace",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_DeleteException",
+          "lookup": "_Unwind_DeleteException",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetCFA",
+          "lookup": "_Unwind_GetCFA",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetDataRelBase",
+          "lookup": "_Unwind_GetDataRelBase",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetIP",
+          "lookup": "_Unwind_GetIP",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetIPInfo",
+          "lookup": "_Unwind_GetIPInfo",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetLanguageSpecificData",
+          "lookup": "_Unwind_GetLanguageSpecificData",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetRegionStart",
+          "lookup": "_Unwind_GetRegionStart",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_GetTextRelBase",
+          "lookup": "_Unwind_GetTextRelBase",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_RaiseException",
+          "lookup": "_Unwind_RaiseException",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_Resume",
+          "lookup": "_Unwind_Resume",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_SetGR",
+          "lookup": "_Unwind_SetGR",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Unwind_SetIP",
+          "lookup": "_Unwind_SetIP",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___chkstk_darwin",
+          "lookup": "__chkstk_darwin",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_atexit",
+          "lookup": "__cxa_atexit",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___error",
+          "lookup": "__error",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___exp10",
+          "lookup": "__exp10",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___memcpy_chk",
+          "lookup": "__memcpy_chk",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___sincos_stret",
+          "lookup": "__sincos_stret",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___sincosf_stret",
+          "lookup": "__sincosf_stret",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___stack_chk_fail",
+          "lookup": "__stack_chk_fail",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___stack_chk_guard",
+          "lookup": "__stack_chk_guard",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___stderrp",
+          "lookup": "__stderrp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__dispatch_main_q",
+          "lookup": "_dispatch_main_q",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__dyld_get_image_header",
+          "lookup": "_dyld_get_image_header",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__dyld_get_image_name",
+          "lookup": "_dyld_get_image_name",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__dyld_get_image_vmaddr_slide",
+          "lookup": "_dyld_get_image_vmaddr_slide",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__dyld_image_count",
+          "lookup": "_dyld_image_count",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__exit",
+          "lookup": "_exit",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__tlv_atexit",
+          "lookup": "_tlv_atexit",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__tlv_bootstrap",
+          "lookup": "_tlv_bootstrap",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_abort",
+          "lookup": "abort",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_acos",
+          "lookup": "acos",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_acosf",
+          "lookup": "acosf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_acosh",
+          "lookup": "acosh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_asin",
+          "lookup": "asin",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_asinh",
+          "lookup": "asinh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_atan",
+          "lookup": "atan",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_atan2",
+          "lookup": "atan2",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_atan2f",
+          "lookup": "atan2f",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_atanf",
+          "lookup": "atanf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_atanh",
+          "lookup": "atanh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_bzero",
+          "lookup": "bzero",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_calloc",
+          "lookup": "calloc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_cbrt",
+          "lookup": "cbrt",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_cbrtf",
+          "lookup": "cbrtf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_chdir",
+          "lookup": "chdir",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_chroot",
+          "lookup": "chroot",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_clock_gettime",
+          "lookup": "clock_gettime",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_close",
+          "lookup": "close",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_closedir",
+          "lookup": "closedir",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_copyfile_state_alloc",
+          "lookup": "copyfile_state_alloc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_copyfile_state_free",
+          "lookup": "copyfile_state_free",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_copyfile_state_get",
+          "lookup": "copyfile_state_get",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_cos",
+          "lookup": "cos",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_cosf",
+          "lookup": "cosf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_cosh",
+          "lookup": "cosh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dirfd",
+          "lookup": "dirfd",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_release",
+          "lookup": "dispatch_release",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_retain",
+          "lookup": "dispatch_retain",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_semaphore_create",
+          "lookup": "dispatch_semaphore_create",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_semaphore_signal",
+          "lookup": "dispatch_semaphore_signal",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_semaphore_wait",
+          "lookup": "dispatch_semaphore_wait",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_sync_f",
+          "lookup": "dispatch_sync_f",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dispatch_time",
+          "lookup": "dispatch_time",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dlclose",
+          "lookup": "dlclose",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dlerror",
+          "lookup": "dlerror",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dlopen",
+          "lookup": "dlopen",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dlsym",
+          "lookup": "dlsym",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dup",
+          "lookup": "dup",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_dup2",
+          "lookup": "dup2",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_erff",
+          "lookup": "erff",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_execvp",
+          "lookup": "execvp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_exit",
+          "lookup": "exit",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_exp",
+          "lookup": "exp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_exp2",
+          "lookup": "exp2",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_exp2f",
+          "lookup": "exp2f",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_expf",
+          "lookup": "expf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_expm1",
+          "lookup": "expm1",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fchmod",
+          "lookup": "fchmod",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fclonefileat",
+          "lookup": "fclonefileat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fclose",
+          "lookup": "fclose",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fcntl",
+          "lookup": "fcntl",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fcopyfile",
+          "lookup": "fcopyfile",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fdopendir",
+          "lookup": "fdopendir",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fflush",
+          "lookup": "fflush",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fileno",
+          "lookup": "fileno",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fmod",
+          "lookup": "fmod",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fmodf",
+          "lookup": "fmodf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fopen",
+          "lookup": "fopen",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fork",
+          "lookup": "fork",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fprintf",
+          "lookup": "fprintf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fputc",
+          "lookup": "fputc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fputs",
+          "lookup": "fputs",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fread",
+          "lookup": "fread",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_free",
+          "lookup": "free",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_freelocale",
+          "lookup": "freelocale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fstat",
+          "lookup": "fstat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_fwrite",
+          "lookup": "fwrite",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getcwd",
+          "lookup": "getcwd",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getentropy",
+          "lookup": "getentropy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getenv",
+          "lookup": "getenv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getpid",
+          "lookup": "getpid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getpwuid_r",
+          "lookup": "getpwuid_r",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_gettimeofday",
+          "lookup": "gettimeofday",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_getuid",
+          "lookup": "getuid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_hypotf",
+          "lookup": "hypotf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_ilogbf",
+          "lookup": "ilogbf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_ioctl",
+          "lookup": "ioctl",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_isatty",
+          "lookup": "isatty",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_log",
+          "lookup": "log",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_log10",
+          "lookup": "log10",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_log1p",
+          "lookup": "log1p",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_log2",
+          "lookup": "log2",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_log2f",
+          "lookup": "log2f",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_longjmp",
+          "lookup": "longjmp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_lseek",
+          "lookup": "lseek",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_lstat",
+          "lookup": "lstat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_mach_timebase_info",
+          "lookup": "mach_timebase_info",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_malloc",
+          "lookup": "malloc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_malloc_size",
+          "lookup": "malloc_size",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memchr",
+          "lookup": "memchr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memcmp",
+          "lookup": "memcmp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memcpy",
+          "lookup": "memcpy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memmove",
+          "lookup": "memmove",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memset",
+          "lookup": "memset",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_memset_pattern16",
+          "lookup": "memset_pattern16",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_mkdir",
+          "lookup": "mkdir",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_mmap",
+          "lookup": "mmap",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_mprotect",
+          "lookup": "mprotect",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_munmap",
+          "lookup": "munmap",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_nanosleep",
+          "lookup": "nanosleep",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_newlocale",
+          "lookup": "newlocale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_nextafterf",
+          "lookup": "nextafterf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_open",
+          "lookup": "open",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_openat",
+          "lookup": "openat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_opendir",
+          "lookup": "opendir",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pause",
+          "lookup": "pause",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pipe",
+          "lookup": "pipe",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_memalign",
+          "lookup": "posix_memalign",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawn_file_actions_adddup2",
+          "lookup": "posix_spawn_file_actions_adddup2",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawn_file_actions_destroy",
+          "lookup": "posix_spawn_file_actions_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawn_file_actions_init",
+          "lookup": "posix_spawn_file_actions_init",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnattr_destroy",
+          "lookup": "posix_spawnattr_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnattr_init",
+          "lookup": "posix_spawnattr_init",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnattr_setflags",
+          "lookup": "posix_spawnattr_setflags",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnattr_setpgroup",
+          "lookup": "posix_spawnattr_setpgroup",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnattr_setsigdefault",
+          "lookup": "posix_spawnattr_setsigdefault",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_posix_spawnp",
+          "lookup": "posix_spawnp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pow",
+          "lookup": "pow",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_powf",
+          "lookup": "powf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_atfork",
+          "lookup": "pthread_atfork",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_attr_destroy",
+          "lookup": "pthread_attr_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_attr_init",
+          "lookup": "pthread_attr_init",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_attr_setstacksize",
+          "lookup": "pthread_attr_setstacksize",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_cond_broadcast",
+          "lookup": "pthread_cond_broadcast",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_cond_destroy",
+          "lookup": "pthread_cond_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_cond_signal",
+          "lookup": "pthread_cond_signal",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_cond_timedwait",
+          "lookup": "pthread_cond_timedwait",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_cond_wait",
+          "lookup": "pthread_cond_wait",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_create",
+          "lookup": "pthread_create",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_detach",
+          "lookup": "pthread_detach",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_get_stackaddr_np",
+          "lookup": "pthread_get_stackaddr_np",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_get_stacksize_np",
+          "lookup": "pthread_get_stacksize_np",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_join",
+          "lookup": "pthread_join",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_main_np",
+          "lookup": "pthread_main_np",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutex_destroy",
+          "lookup": "pthread_mutex_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutex_init",
+          "lookup": "pthread_mutex_init",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutex_lock",
+          "lookup": "pthread_mutex_lock",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutex_trylock",
+          "lookup": "pthread_mutex_trylock",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutex_unlock",
+          "lookup": "pthread_mutex_unlock",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutexattr_destroy",
+          "lookup": "pthread_mutexattr_destroy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutexattr_init",
+          "lookup": "pthread_mutexattr_init",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_mutexattr_settype",
+          "lookup": "pthread_mutexattr_settype",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_self",
+          "lookup": "pthread_self",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_setname_np",
+          "lookup": "pthread_setname_np",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_pthread_threadid_np",
+          "lookup": "pthread_threadid_np",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_read",
+          "lookup": "read",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_readdir_r",
+          "lookup": "readdir_r",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_realloc",
+          "lookup": "realloc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_remainder",
+          "lookup": "remainder",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_rename",
+          "lookup": "rename",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sched_yield",
+          "lookup": "sched_yield",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setenv",
+          "lookup": "setenv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setgid",
+          "lookup": "setgid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setgroups",
+          "lookup": "setgroups",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setjmp",
+          "lookup": "setjmp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setlocale",
+          "lookup": "setlocale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setpgid",
+          "lookup": "setpgid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setsid",
+          "lookup": "setsid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_setuid",
+          "lookup": "setuid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sigaction",
+          "lookup": "sigaction",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sigaddset",
+          "lookup": "sigaddset",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sigaltstack",
+          "lookup": "sigaltstack",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sigemptyset",
+          "lookup": "sigemptyset",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_signal",
+          "lookup": "signal",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sin",
+          "lookup": "sin",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sinf",
+          "lookup": "sinf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sinh",
+          "lookup": "sinh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_snprintf",
+          "lookup": "snprintf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sscanf",
+          "lookup": "sscanf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_stat",
+          "lookup": "stat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strcat",
+          "lookup": "strcat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strchr",
+          "lookup": "strchr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strcmp",
+          "lookup": "strcmp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strcpy",
+          "lookup": "strcpy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strcspn",
+          "lookup": "strcspn",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strerror_r",
+          "lookup": "strerror_r",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strlen",
+          "lookup": "strlen",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strncat",
+          "lookup": "strncat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strncmp",
+          "lookup": "strncmp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strncpy",
+          "lookup": "strncpy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strrchr",
+          "lookup": "strrchr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strspn",
+          "lookup": "strspn",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strstr",
+          "lookup": "strstr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strtod",
+          "lookup": "strtod",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strtol",
+          "lookup": "strtol",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strtoul",
+          "lookup": "strtoul",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_strtoull",
+          "lookup": "strtoull",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sysconf",
+          "lookup": "sysconf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sysctlbyname",
+          "lookup": "sysctlbyname",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_tan",
+          "lookup": "tan",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_tanf",
+          "lookup": "tanf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_tanh",
+          "lookup": "tanh",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_tanhf",
+          "lookup": "tanhf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_unlink",
+          "lookup": "unlink",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_unlinkat",
+          "lookup": "unlinkat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_uselocale",
+          "lookup": "uselocale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_vfprintf",
+          "lookup": "vfprintf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_vsnprintf",
+          "lookup": "vsnprintf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_waitpid",
+          "lookup": "waitpid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_write",
+          "lookup": "write",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_writev",
+          "lookup": "writev",
+          "status": "available"
+        },
+        {
+          "category": "loader_special_symbol",
+          "import": "dyld_stub_binder",
+          "lookup": "dyld_stub_binder",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 29,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/usr/lib/libobjc.A.dylib",
+      "provider": "libobjc",
+      "runtime_path": "/usr/lib/libobjc.A.dylib",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_addIvar",
+          "lookup": "class_addIvar",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_addMethod",
+          "lookup": "class_addMethod",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_addProtocol",
+          "lookup": "class_addProtocol",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_getInstanceVariable",
+          "lookup": "class_getInstanceVariable",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_getName",
+          "lookup": "class_getName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_isMetaClass",
+          "lookup": "class_isMetaClass",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_class_respondsToSelector",
+          "lookup": "class_respondsToSelector",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_ivar_getOffset",
+          "lookup": "ivar_getOffset",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_alloc",
+          "lookup": "objc_alloc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_allocateClassPair",
+          "lookup": "objc_allocateClassPair",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_autoreleasePoolPop",
+          "lookup": "objc_autoreleasePoolPop",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_autoreleasePoolPush",
+          "lookup": "objc_autoreleasePoolPush",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_autoreleaseReturnValue",
+          "lookup": "objc_autoreleaseReturnValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_destroyWeak",
+          "lookup": "objc_destroyWeak",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_disposeClassPair",
+          "lookup": "objc_disposeClassPair",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_getClass",
+          "lookup": "objc_getClass",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_getProtocol",
+          "lookup": "objc_getProtocol",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_initWeak",
+          "lookup": "objc_initWeak",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_loadWeakRetained",
+          "lookup": "objc_loadWeakRetained",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_msgSend",
+          "lookup": "objc_msgSend",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_msgSendSuper",
+          "lookup": "objc_msgSendSuper",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_registerClassPair",
+          "lookup": "objc_registerClassPair",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_release",
+          "lookup": "objc_release",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_retain",
+          "lookup": "objc_retain",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_objc_retainAutoreleasedReturnValue",
+          "lookup": "objc_retainAutoreleasedReturnValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_object_getClass",
+          "lookup": "object_getClass",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_protocol_getName",
+          "lookup": "protocol_getName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sel_getName",
+          "lookup": "sel_getName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_sel_registerName",
+          "lookup": "sel_registerName",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 25,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+      "provider": "IOKit",
+      "runtime_path": "/System/Library/Frameworks/IOKit.framework/IOKit",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDDeviceCopyMatchingElements",
+          "lookup": "IOHIDDeviceCopyMatchingElements",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDDeviceGetProperty",
+          "lookup": "IOHIDDeviceGetProperty",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDDeviceGetService",
+          "lookup": "IOHIDDeviceGetService",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetChildren",
+          "lookup": "IOHIDElementGetChildren",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetCookie",
+          "lookup": "IOHIDElementGetCookie",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetLogicalMax",
+          "lookup": "IOHIDElementGetLogicalMax",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetLogicalMin",
+          "lookup": "IOHIDElementGetLogicalMin",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetType",
+          "lookup": "IOHIDElementGetType",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetUsage",
+          "lookup": "IOHIDElementGetUsage",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDElementGetUsagePage",
+          "lookup": "IOHIDElementGetUsagePage",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerCreate",
+          "lookup": "IOHIDManagerCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerOpen",
+          "lookup": "IOHIDManagerOpen",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerRegisterDeviceMatchingCallback",
+          "lookup": "IOHIDManagerRegisterDeviceMatchingCallback",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerRegisterDeviceRemovalCallback",
+          "lookup": "IOHIDManagerRegisterDeviceRemovalCallback",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerRegisterInputValueCallback",
+          "lookup": "IOHIDManagerRegisterInputValueCallback",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerScheduleWithRunLoop",
+          "lookup": "IOHIDManagerScheduleWithRunLoop",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerSetDeviceMatchingMultiple",
+          "lookup": "IOHIDManagerSetDeviceMatchingMultiple",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDManagerUnscheduleFromRunLoop",
+          "lookup": "IOHIDManagerUnscheduleFromRunLoop",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDValueGetElement",
+          "lookup": "IOHIDValueGetElement",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOHIDValueGetIntegerValue",
+          "lookup": "IOHIDValueGetIntegerValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOObjectRelease",
+          "lookup": "IOObjectRelease",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOObjectRetain",
+          "lookup": "IOObjectRetain",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOPMAssertionCreateWithName",
+          "lookup": "IOPMAssertionCreateWithName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IOPMAssertionRelease",
+          "lookup": "IOPMAssertionRelease",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_IORegistryEntryGetRegistryEntryID",
+          "lookup": "IORegistryEntryGetRegistryEntryID",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 6,
+        "not_tested": 0
+      },
+      "load_status": "missing",
+      "original_path": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+      "provider": "AppKit",
+      "runtime_path": "/System/Library/Frameworks/AppKit.framework/AppKit",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSAppKitVersionNumber",
+          "lookup": "NSAppKitVersionNumber",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSAppearanceNameAqua",
+          "lookup": "NSAppearanceNameAqua",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSDeviceRGBColorSpace",
+          "lookup": "NSDeviceRGBColorSpace",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSFilenamesPboardType",
+          "lookup": "NSFilenamesPboardType",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSPasteboardTypeString",
+          "lookup": "NSPasteboardTypeString",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_NSViewFrameDidChangeNotification",
+          "lookup": "NSViewFrameDidChangeNotification",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 9,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+      "provider": "AudioToolbox",
+      "runtime_path": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioComponentFindNext",
+          "lookup": "AudioComponentFindNext",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioComponentInstanceDispose",
+          "lookup": "AudioComponentInstanceDispose",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioComponentInstanceNew",
+          "lookup": "AudioComponentInstanceNew",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioOutputUnitStart",
+          "lookup": "AudioOutputUnitStart",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioOutputUnitStop",
+          "lookup": "AudioOutputUnitStop",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioUnitGetProperty",
+          "lookup": "AudioUnitGetProperty",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioUnitInitialize",
+          "lookup": "AudioUnitInitialize",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioUnitSetProperty",
+          "lookup": "AudioUnitSetProperty",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioUnitUninitialize",
+          "lookup": "AudioUnitUninitialize",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 4,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+      "provider": "CoreAudio",
+      "runtime_path": "/System/Library/Frameworks/CoreAudio.framework/CoreAudio",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioObjectAddPropertyListener",
+          "lookup": "AudioObjectAddPropertyListener",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioObjectGetPropertyData",
+          "lookup": "AudioObjectGetPropertyData",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioObjectGetPropertyDataSize",
+          "lookup": "AudioObjectGetPropertyDataSize",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_AudioObjectRemovePropertyListener",
+          "lookup": "AudioObjectRemovePropertyListener",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "missing",
+      "original_path": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+      "provider": "ApplicationServices",
+      "runtime_path": "/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices",
+      "skip_reason": null,
+      "symbols": [],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 21,
+        "missing": 24,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+      "provider": "CoreGraphics",
+      "runtime_path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGAcquireDisplayFadeReservation",
+          "lookup": "CGAcquireDisplayFadeReservation",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGAffineTransformConcat",
+          "lookup": "CGAffineTransformConcat",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGAffineTransformInvert",
+          "lookup": "CGAffineTransformInvert",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGAffineTransformMakeScale",
+          "lookup": "CGAffineTransformMakeScale",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGBitmapContextCreate",
+          "lookup": "CGBitmapContextCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGColorCreate",
+          "lookup": "CGColorCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGColorSpaceCreateDeviceRGB",
+          "lookup": "CGColorSpaceCreateDeviceRGB",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetAllowsFontSubpixelPositioning",
+          "lookup": "CGContextSetAllowsFontSubpixelPositioning",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetAllowsFontSubpixelQuantization",
+          "lookup": "CGContextSetAllowsFontSubpixelQuantization",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetFillColorWithColor",
+          "lookup": "CGContextSetFillColorWithColor",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetGrayFillColor",
+          "lookup": "CGContextSetGrayFillColor",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetShouldAntialias",
+          "lookup": "CGContextSetShouldAntialias",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetShouldSmoothFonts",
+          "lookup": "CGContextSetShouldSmoothFonts",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetShouldSubpixelPositionFonts",
+          "lookup": "CGContextSetShouldSubpixelPositionFonts",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetShouldSubpixelQuantizeFonts",
+          "lookup": "CGContextSetShouldSubpixelQuantizeFonts",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetTextDrawingMode",
+          "lookup": "CGContextSetTextDrawingMode",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGContextSetTextMatrix",
+          "lookup": "CGContextSetTextMatrix",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayBounds",
+          "lookup": "CGDisplayBounds",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayCapture",
+          "lookup": "CGDisplayCapture",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayCopyAllDisplayModes",
+          "lookup": "CGDisplayCopyAllDisplayModes",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayCopyDisplayMode",
+          "lookup": "CGDisplayCopyDisplayMode",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayFade",
+          "lookup": "CGDisplayFade",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeCopyPixelEncoding",
+          "lookup": "CGDisplayModeCopyPixelEncoding",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeGetPixelHeight",
+          "lookup": "CGDisplayModeGetPixelHeight",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeGetPixelWidth",
+          "lookup": "CGDisplayModeGetPixelWidth",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeGetRefreshRate",
+          "lookup": "CGDisplayModeGetRefreshRate",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeRelease",
+          "lookup": "CGDisplayModeRelease",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModeRetain",
+          "lookup": "CGDisplayModeRetain",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayModelNumber",
+          "lookup": "CGDisplayModelNumber",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayPixelsHigh",
+          "lookup": "CGDisplayPixelsHigh",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayPixelsWide",
+          "lookup": "CGDisplayPixelsWide",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayRelease",
+          "lookup": "CGDisplayRelease",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplaySetDisplayMode",
+          "lookup": "CGDisplaySetDisplayMode",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGFontCopyTableForTag",
+          "lookup": "CGFontCopyTableForTag",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGFontGetUnitsPerEm",
+          "lookup": "CGFontGetUnitsPerEm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGGetActiveDisplayList",
+          "lookup": "CGGetActiveDisplayList",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGMainDisplayID",
+          "lookup": "CGMainDisplayID",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGPathApply",
+          "lookup": "CGPathApply",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGPathIsEmpty",
+          "lookup": "CGPathIsEmpty",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGRectApplyAffineTransform",
+          "lookup": "CGRectApplyAffineTransform",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGReleaseDisplayFadeReservation",
+          "lookup": "CGReleaseDisplayFadeReservation",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGRestorePermanentDisplayConfiguration",
+          "lookup": "CGRestorePermanentDisplayConfiguration",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGSMainConnectionID",
+          "lookup": "CGSMainConnectionID",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGSSetWindowBackgroundBlurRadius",
+          "lookup": "CGSSetWindowBackgroundBlurRadius",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGShieldingWindowLevel",
+          "lookup": "CGShieldingWindowLevel",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 3,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+      "provider": "CoreVideo",
+      "runtime_path": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CVDisplayLinkCreateWithCGDisplay",
+          "lookup": "CVDisplayLinkCreateWithCGDisplay",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CVDisplayLinkGetNominalOutputVideoRefreshPeriod",
+          "lookup": "CVDisplayLinkGetNominalOutputVideoRefreshPeriod",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CVDisplayLinkRelease",
+          "lookup": "CVDisplayLinkRelease",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 4,
+        "not_tested": 0
+      },
+      "load_status": "missing",
+      "original_path": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+      "provider": "Carbon",
+      "runtime_path": "/System/Library/Frameworks/Carbon.framework/Carbon",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_LMGetKbdType",
+          "lookup": "LMGetKbdType",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_TISCopyCurrentKeyboardLayoutInputSource",
+          "lookup": "TISCopyCurrentKeyboardLayoutInputSource",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_TISGetInputSourceProperty",
+          "lookup": "TISGetInputSourceProperty",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kTISPropertyUnicodeKeyLayoutData",
+          "lookup": "kTISPropertyUnicodeKeyLayoutData",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 90,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/usr/lib/libc++.1.dylib",
+      "provider": "libc++",
+      "runtime_path": "/usr/lib/libc++.1.dylib",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info",
+          "lookup": "_ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNKSt3__16locale4nameEv",
+          "lookup": "_ZNKSt3__16locale4nameEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNKSt3__16locale9use_facetERNS0_2idE",
+          "lookup": "_ZNKSt3__16locale9use_facetERNS0_2idE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNKSt3__18ios_base6getlocEv",
+          "lookup": "_ZNKSt3__18ios_base6getlocEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt11logic_errorC2EPKc",
+          "lookup": "_ZNSt11logic_errorC2EPKc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt12length_errorD1Ev",
+          "lookup": "_ZNSt12length_errorD1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__111__call_onceERVmPvPFvS2_E",
+          "lookup": "_ZNSt3__111__call_onceERVmPvPFvS2_E",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112__next_primeEm",
+          "lookup": "_ZNSt3__112__next_primeEm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+          "lookup": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+          "lookup": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERd",
+          "lookup": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERd",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf",
+          "lookup": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf",
+          "lookup": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+          "lookup": "_ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE4syncEv",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE4syncEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5uflowEv",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5uflowEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev",
+          "lookup": "_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__118condition_variable10notify_allEv",
+          "lookup": "_ZNSt3__118condition_variable10notify_allEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+          "lookup": "_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__118condition_variableD1Ev",
+          "lookup": "_ZNSt3__118condition_variableD1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__119__shared_weak_count14__release_weakEv",
+          "lookup": "_ZNSt3__119__shared_weak_count14__release_weakEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__119__shared_weak_countD2Ev",
+          "lookup": "_ZNSt3__119__shared_weak_countD2Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__15alignEmmRPvRm",
+          "lookup": "_ZNSt3__15alignEmmRPvRm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__15ctypeIcE2idE",
+          "lookup": "_ZNSt3__15ctypeIcE2idE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__15mutex4lockEv",
+          "lookup": "_ZNSt3__15mutex4lockEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__15mutex6unlockEv",
+          "lookup": "_ZNSt3__15mutex6unlockEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__15mutexD1Ev",
+          "lookup": "_ZNSt3__15mutexD1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16chrono12steady_clock3nowEv",
+          "lookup": "_ZNSt3__16chrono12steady_clock3nowEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16locale7classicEv",
+          "lookup": "_ZNSt3__16locale7classicEv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16localeC1ERKS0_",
+          "lookup": "_ZNSt3__16localeC1ERKS0_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16localeC1Ev",
+          "lookup": "_ZNSt3__16localeC1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16localeD1Ev",
+          "lookup": "_ZNSt3__16localeD1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__16localeaSERKS0_",
+          "lookup": "_ZNSt3__16localeaSERKS0_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__18ios_base4initEPv",
+          "lookup": "_ZNSt3__18ios_base4initEPv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__18ios_base5clearEj",
+          "lookup": "_ZNSt3__18ios_base5clearEj",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__18ios_base5imbueERKNS_6localeE",
+          "lookup": "_ZNSt3__18ios_base5imbueERKNS_6localeE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev",
+          "lookup": "_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__19to_stringEi",
+          "lookup": "_ZNSt3__19to_stringEi",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__19to_stringEm",
+          "lookup": "_ZNSt3__19to_stringEm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__19to_stringEx",
+          "lookup": "_ZNSt3__19to_stringEx",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+          "lookup": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZSt9terminatev",
+          "lookup": "_ZSt9terminatev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTVN10__cxxabiv117__class_type_infoE",
+          "lookup": "_ZTVN10__cxxabiv117__class_type_infoE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTVN10__cxxabiv120__si_class_type_infoE",
+          "lookup": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTVN10__cxxabiv121__vmi_class_type_infoE",
+          "lookup": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTVSt12length_error",
+          "lookup": "_ZTVSt12length_error",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "lookup": "_ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "lookup": "_ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZdaPv",
+          "lookup": "_ZdaPv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__ZdlPv",
+          "lookup": "_ZdlPv",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Znam",
+          "lookup": "_Znam",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "__Znwm",
+          "lookup": "_Znwm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_allocate_exception",
+          "lookup": "__cxa_allocate_exception",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_bad_typeid",
+          "lookup": "__cxa_bad_typeid",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_begin_catch",
+          "lookup": "__cxa_begin_catch",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_free_exception",
+          "lookup": "__cxa_free_exception",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_guard_acquire",
+          "lookup": "__cxa_guard_acquire",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_guard_release",
+          "lookup": "__cxa_guard_release",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_pure_virtual",
+          "lookup": "__cxa_pure_virtual",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___cxa_throw",
+          "lookup": "__cxa_throw",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___dynamic_cast",
+          "lookup": "__dynamic_cast",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___gxx_personality_v0",
+          "lookup": "__gxx_personality_v0",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 2,
+        "not_tested": 0
+      },
+      "load_status": "missing",
+      "original_path": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+      "provider": "OpenGL",
+      "runtime_path": "/System/Library/Frameworks/OpenGL.framework/OpenGL",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGLErrorString",
+          "lookup": "CGLErrorString",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGLSetParameter",
+          "lookup": "CGLSetParameter",
+          "reason": "Dependent library could not be loaded on this device.",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 68,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+      "provider": "CoreFoundation",
+      "runtime_path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFAbsoluteTimeGetCurrent",
+          "lookup": "CFAbsoluteTimeGetCurrent",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFAllocatorCreate",
+          "lookup": "CFAllocatorCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFArrayApplyFunction",
+          "lookup": "CFArrayApplyFunction",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFArrayCreate",
+          "lookup": "CFArrayCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFArrayGetCount",
+          "lookup": "CFArrayGetCount",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFArrayGetTypeID",
+          "lookup": "CFArrayGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFArrayGetValueAtIndex",
+          "lookup": "CFArrayGetValueAtIndex",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFBooleanGetTypeID",
+          "lookup": "CFBooleanGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFBooleanGetValue",
+          "lookup": "CFBooleanGetValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFBundleGetBundleWithIdentifier",
+          "lookup": "CFBundleGetBundleWithIdentifier",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFBundleGetFunctionPointerForName",
+          "lookup": "CFBundleGetFunctionPointerForName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFCharacterSetCreateBitmapRepresentation",
+          "lookup": "CFCharacterSetCreateBitmapRepresentation",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDataCreate",
+          "lookup": "CFDataCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDataCreateWithBytesNoCopy",
+          "lookup": "CFDataCreateWithBytesNoCopy",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDataGetBytePtr",
+          "lookup": "CFDataGetBytePtr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDataGetLength",
+          "lookup": "CFDataGetLength",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryAddValue",
+          "lookup": "CFDictionaryAddValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryCreate",
+          "lookup": "CFDictionaryCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryCreateMutable",
+          "lookup": "CFDictionaryCreateMutable",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryGetTypeID",
+          "lookup": "CFDictionaryGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryGetValue",
+          "lookup": "CFDictionaryGetValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionaryGetValueIfPresent",
+          "lookup": "CFDictionaryGetValueIfPresent",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFDictionarySetValue",
+          "lookup": "CFDictionarySetValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFEqual",
+          "lookup": "CFEqual",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFGetTypeID",
+          "lookup": "CFGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFLocaleCopyPreferredLanguages",
+          "lookup": "CFLocaleCopyPreferredLanguages",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFNumberCreate",
+          "lookup": "CFNumberCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFNumberGetTypeID",
+          "lookup": "CFNumberGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFNumberGetValue",
+          "lookup": "CFNumberGetValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFNumberIsFloatType",
+          "lookup": "CFNumberIsFloatType",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRelease",
+          "lookup": "CFRelease",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRetain",
+          "lookup": "CFRetain",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopAddObserver",
+          "lookup": "CFRunLoopAddObserver",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopAddTimer",
+          "lookup": "CFRunLoopAddTimer",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopGetCurrent",
+          "lookup": "CFRunLoopGetCurrent",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopGetMain",
+          "lookup": "CFRunLoopGetMain",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopObserverCreate",
+          "lookup": "CFRunLoopObserverCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopPerformBlock",
+          "lookup": "CFRunLoopPerformBlock",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopRun",
+          "lookup": "CFRunLoopRun",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopTimerCreate",
+          "lookup": "CFRunLoopTimerCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopTimerInvalidate",
+          "lookup": "CFRunLoopTimerInvalidate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopTimerSetNextFireDate",
+          "lookup": "CFRunLoopTimerSetNextFireDate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFRunLoopWakeUp",
+          "lookup": "CFRunLoopWakeUp",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFSetAddValue",
+          "lookup": "CFSetAddValue",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFSetCreate",
+          "lookup": "CFSetCreate",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFSetCreateMutable",
+          "lookup": "CFSetCreateMutable",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFSetGetCount",
+          "lookup": "CFSetGetCount",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFSetGetValues",
+          "lookup": "CFSetGetValues",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringCompare",
+          "lookup": "CFStringCompare",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringCreateWithBytes",
+          "lookup": "CFStringCreateWithBytes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringCreateWithCString",
+          "lookup": "CFStringCreateWithCString",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetBytes",
+          "lookup": "CFStringGetBytes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetCString",
+          "lookup": "CFStringGetCString",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetCStringPtr",
+          "lookup": "CFStringGetCStringPtr",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetLength",
+          "lookup": "CFStringGetLength",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetMaximumSizeForEncoding",
+          "lookup": "CFStringGetMaximumSizeForEncoding",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFStringGetTypeID",
+          "lookup": "CFStringGetTypeID",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFTimeZoneCopySystem",
+          "lookup": "CFTimeZoneCopySystem",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CFTimeZoneGetName",
+          "lookup": "CFTimeZoneGetName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "___CFConstantStringClassReference",
+          "lookup": "__CFConstantStringClassReference",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFAllocatorDefault",
+          "lookup": "kCFAllocatorDefault",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFAllocatorNull",
+          "lookup": "kCFAllocatorNull",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFRunLoopCommonModes",
+          "lookup": "kCFRunLoopCommonModes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFRunLoopDefaultMode",
+          "lookup": "kCFRunLoopDefaultMode",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFTypeArrayCallBacks",
+          "lookup": "kCFTypeArrayCallBacks",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFTypeDictionaryKeyCallBacks",
+          "lookup": "kCFTypeDictionaryKeyCallBacks",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFTypeDictionaryValueCallBacks",
+          "lookup": "kCFTypeDictionaryValueCallBacks",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCFTypeSetCallBacks",
+          "lookup": "kCFTypeSetCallBacks",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 0,
+        "not_tested": 82
+      },
+      "load_status": "not_tested",
+      "original_path": "@loader_path/libsteam_api.dylib",
+      "provider": "libsteam_api",
+      "runtime_path": "@loader_path/libsteam_api.dylib",
+      "skip_reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_GetHSteamPipe",
+          "lookup": "SteamAPI_GetHSteamPipe",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog",
+          "lookup": "SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage",
+          "lookup": "SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamFriends_GetPersonaName",
+          "lookup": "SteamAPI_ISteamFriends_GetPersonaName",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamInput_GetConnectedControllers",
+          "lookup": "SteamAPI_ISteamInput_GetConnectedControllers",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamInput_GetInputTypeForHandle",
+          "lookup": "SteamAPI_ISteamInput_GetInputTypeForHandle",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamInput_GetSessionInputConfigurationSettings",
+          "lookup": "SteamAPI_ISteamInput_GetSessionInputConfigurationSettings",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamInput_Init",
+          "lookup": "SteamAPI_ISteamInput_Init",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter",
+          "lookup": "SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable",
+          "lookup": "SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_CreateLobby",
+          "lookup": "SteamAPI_ISteamMatchmaking_CreateLobby",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_GetLobbyByIndex",
+          "lookup": "SteamAPI_ISteamMatchmaking_GetLobbyByIndex",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_GetLobbyData",
+          "lookup": "SteamAPI_ISteamMatchmaking_GetLobbyData",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit",
+          "lookup": "SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_GetLobbyOwner",
+          "lookup": "SteamAPI_ISteamMatchmaking_GetLobbyOwner",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_GetNumLobbyMembers",
+          "lookup": "SteamAPI_ISteamMatchmaking_GetNumLobbyMembers",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_JoinLobby",
+          "lookup": "SteamAPI_ISteamMatchmaking_JoinLobby",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_LeaveLobby",
+          "lookup": "SteamAPI_ISteamMatchmaking_LeaveLobby",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_RequestLobbyList",
+          "lookup": "SteamAPI_ISteamMatchmaking_RequestLobbyList",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_SetLobbyData",
+          "lookup": "SteamAPI_ISteamMatchmaking_SetLobbyData",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamMatchmaking_SetLobbyJoinable",
+          "lookup": "SteamAPI_ISteamMatchmaking_SetLobbyJoinable",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_AcceptConnection",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_AcceptConnection",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_CloseConnection",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_CloseConnection",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_CloseListenSocket",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_CloseListenSocket",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_ConnectP2P",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_ConnectP2P",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_CreatePollGroup",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_CreatePollGroup",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_DestroyPollGroup",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_DestroyPollGroup",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_GetConnectionInfo",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_GetConnectionInfo",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_SendMessageToConnection",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_SendMessageToConnection",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamNetworkingSockets_SetConnectionUserData",
+          "lookup": "SteamAPI_ISteamNetworkingSockets_SetConnectionUserData",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUGC_DownloadItem",
+          "lookup": "SteamAPI_ISteamUGC_DownloadItem",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUGC_GetItemInstallInfo",
+          "lookup": "SteamAPI_ISteamUGC_GetItemInstallInfo",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUGC_GetItemState",
+          "lookup": "SteamAPI_ISteamUGC_GetItemState",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUGC_GetNumSubscribedItems",
+          "lookup": "SteamAPI_ISteamUGC_GetNumSubscribedItems",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUGC_GetSubscribedItems",
+          "lookup": "SteamAPI_ISteamUGC_GetSubscribedItems",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_ClearAchievement",
+          "lookup": "SteamAPI_ISteamUserStats_ClearAchievement",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_GetAchievement",
+          "lookup": "SteamAPI_ISteamUserStats_GetAchievement",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_GetAchievementName",
+          "lookup": "SteamAPI_ISteamUserStats_GetAchievementName",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_GetNumAchievements",
+          "lookup": "SteamAPI_ISteamUserStats_GetNumAchievements",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_RequestCurrentStats",
+          "lookup": "SteamAPI_ISteamUserStats_RequestCurrentStats",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_SetAchievement",
+          "lookup": "SteamAPI_ISteamUserStats_SetAchievement",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUserStats_StoreStats",
+          "lookup": "SteamAPI_ISteamUserStats_StoreStats",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUser_GetSteamID",
+          "lookup": "SteamAPI_ISteamUser_GetSteamID",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_GetEnteredGamepadTextInput",
+          "lookup": "SteamAPI_ISteamUtils_GetEnteredGamepadTextInput",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_IsOverlayEnabled",
+          "lookup": "SteamAPI_ISteamUtils_IsOverlayEnabled",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_IsSteamInBigPictureMode",
+          "lookup": "SteamAPI_ISteamUtils_IsSteamInBigPictureMode",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck",
+          "lookup": "SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput",
+          "lookup": "SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ISteamUtils_ShowGamepadTextInput",
+          "lookup": "SteamAPI_ISteamUtils_ShowGamepadTextInput",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ManualDispatch_FreeLastCallback",
+          "lookup": "SteamAPI_ManualDispatch_FreeLastCallback",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ManualDispatch_GetAPICallResult",
+          "lookup": "SteamAPI_ManualDispatch_GetAPICallResult",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ManualDispatch_GetNextCallback",
+          "lookup": "SteamAPI_ManualDispatch_GetNextCallback",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ManualDispatch_Init",
+          "lookup": "SteamAPI_ManualDispatch_Init",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_ManualDispatch_RunFrame",
+          "lookup": "SteamAPI_ManualDispatch_RunFrame",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_Shutdown",
+          "lookup": "SteamAPI_Shutdown",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamFriends_v017",
+          "lookup": "SteamAPI_SteamFriends_v017",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamInput_v006",
+          "lookup": "SteamAPI_SteamInput_v006",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamMatchmaking_v009",
+          "lookup": "SteamAPI_SteamMatchmaking_v009",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingConfigValue_t_SetInt32",
+          "lookup": "SteamAPI_SteamNetworkingConfigValue_t_SetInt32",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIPAddr_Clear",
+          "lookup": "SteamAPI_SteamNetworkingIPAddr_Clear",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIPAddr_GetIPv4",
+          "lookup": "SteamAPI_SteamNetworkingIPAddr_GetIPv4",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIPAddr_IsIPv4",
+          "lookup": "SteamAPI_SteamNetworkingIPAddr_IsIPv4",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIPAddr_SetIPv4",
+          "lookup": "SteamAPI_SteamNetworkingIPAddr_SetIPv4",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIPAddr_SetIPv6",
+          "lookup": "SteamAPI_SteamNetworkingIPAddr_SetIPv6",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIdentity_Clear",
+          "lookup": "SteamAPI_SteamNetworkingIdentity_Clear",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIdentity_GetIPAddr",
+          "lookup": "SteamAPI_SteamNetworkingIdentity_GetIPAddr",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIdentity_IsInvalid",
+          "lookup": "SteamAPI_SteamNetworkingIdentity_IsInvalid",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingIdentity_SetSteamID64",
+          "lookup": "SteamAPI_SteamNetworkingIdentity_SetSteamID64",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingMessage_t_Release",
+          "lookup": "SteamAPI_SteamNetworkingMessage_t_Release",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamNetworkingSockets_SteamAPI_v012",
+          "lookup": "SteamAPI_SteamNetworkingSockets_SteamAPI_v012",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamUGC_v018",
+          "lookup": "SteamAPI_SteamUGC_v018",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamUserStats_v012",
+          "lookup": "SteamAPI_SteamUserStats_v012",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamUser_v023",
+          "lookup": "SteamAPI_SteamUser_v023",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamAPI_SteamUtils_v010",
+          "lookup": "SteamAPI_SteamUtils_v010",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_SteamInternal_SteamAPI_Init",
+          "lookup": "SteamInternal_SteamAPI_Init",
+          "reason": "Vendor library is not bundled or loaded by this diagnostic app.",
+          "status": "not_tested"
+        }
+      ],
+      "testable": false
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/usr/lib/libiconv.2.dylib",
+      "provider": "libiconv",
+      "runtime_path": "/usr/lib/libiconv.2.dylib",
+      "skip_reason": null,
+      "symbols": [],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 1,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync",
+      "provider": "ColorSync",
+      "runtime_path": "/System/Library/Frameworks/ColorSync.framework/ColorSync",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CGDisplayCreateUUIDFromDisplayID",
+          "lookup": "CGDisplayCreateUUIDFromDisplayID",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 0,
+        "missing": 1,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+      "provider": "CoreServices",
+      "runtime_path": "/System/Library/Frameworks/CoreServices.framework/CoreServices",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_UCKeyTranslate",
+          "lookup": "UCKeyTranslate",
+          "status": "missing"
+        }
+      ],
+      "testable": true
+    },
+    {
+      "counts": {
+        "available": 56,
+        "missing": 0,
+        "not_tested": 0
+      },
+      "load_status": "available",
+      "original_path": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+      "provider": "CoreText",
+      "runtime_path": "/System/Library/Frameworks/CoreText.framework/CoreText",
+      "skip_reason": null,
+      "symbols": [
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCollectionCreateFromAvailableFonts",
+          "lookup": "CTFontCollectionCreateFromAvailableFonts",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCollectionCreateMatchingFontDescriptors",
+          "lookup": "CTFontCollectionCreateMatchingFontDescriptors",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyAttribute",
+          "lookup": "CTFontCopyAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyAvailableTables",
+          "lookup": "CTFontCopyAvailableTables",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyCharacterSet",
+          "lookup": "CTFontCopyCharacterSet",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyFamilyName",
+          "lookup": "CTFontCopyFamilyName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyFontDescriptor",
+          "lookup": "CTFontCopyFontDescriptor",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyFullName",
+          "lookup": "CTFontCopyFullName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyGraphicsFont",
+          "lookup": "CTFontCopyGraphicsFont",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyLocalizedName",
+          "lookup": "CTFontCopyLocalizedName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyPostScriptName",
+          "lookup": "CTFontCopyPostScriptName",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyTable",
+          "lookup": "CTFontCopyTable",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyVariation",
+          "lookup": "CTFontCopyVariation",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCopyVariationAxes",
+          "lookup": "CTFontCopyVariationAxes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCreateCopyWithAttributes",
+          "lookup": "CTFontCreateCopyWithAttributes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCreateCopyWithSymbolicTraits",
+          "lookup": "CTFontCreateCopyWithSymbolicTraits",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCreateForString",
+          "lookup": "CTFontCreateForString",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCreatePathForGlyph",
+          "lookup": "CTFontCreatePathForGlyph",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontCreateWithFontDescriptor",
+          "lookup": "CTFontCreateWithFontDescriptor",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontDescriptorCopyAttribute",
+          "lookup": "CTFontDescriptorCopyAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontDescriptorCreateMatchingFontDescriptor",
+          "lookup": "CTFontDescriptorCreateMatchingFontDescriptor",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontDescriptorCreateMatchingFontDescriptors",
+          "lookup": "CTFontDescriptorCreateMatchingFontDescriptors",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontDescriptorCreateWithAttributes",
+          "lookup": "CTFontDescriptorCreateWithAttributes",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontDrawGlyphs",
+          "lookup": "CTFontDrawGlyphs",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetAdvancesForGlyphs",
+          "lookup": "CTFontGetAdvancesForGlyphs",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetAscent",
+          "lookup": "CTFontGetAscent",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetBoundingBox",
+          "lookup": "CTFontGetBoundingBox",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetBoundingRectsForGlyphs",
+          "lookup": "CTFontGetBoundingRectsForGlyphs",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetCapHeight",
+          "lookup": "CTFontGetCapHeight",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetDescent",
+          "lookup": "CTFontGetDescent",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetGlyphCount",
+          "lookup": "CTFontGetGlyphCount",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetGlyphsForCharacters",
+          "lookup": "CTFontGetGlyphsForCharacters",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetLeading",
+          "lookup": "CTFontGetLeading",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetSize",
+          "lookup": "CTFontGetSize",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetSlantAngle",
+          "lookup": "CTFontGetSlantAngle",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetSymbolicTraits",
+          "lookup": "CTFontGetSymbolicTraits",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetUnderlinePosition",
+          "lookup": "CTFontGetUnderlinePosition",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetUnderlineThickness",
+          "lookup": "CTFontGetUnderlineThickness",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetUnitsPerEm",
+          "lookup": "CTFontGetUnitsPerEm",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontGetXHeight",
+          "lookup": "CTFontGetXHeight",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontManagerCopyAvailableFontFamilyNames",
+          "lookup": "CTFontManagerCopyAvailableFontFamilyNames",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_CTFontManagerCreateFontDescriptorFromData",
+          "lookup": "CTFontManagerCreateFontDescriptorFromData",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontFamilyNameAttribute",
+          "lookup": "kCTFontFamilyNameAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontFamilyNameKey",
+          "lookup": "kCTFontFamilyNameKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontFormatAttribute",
+          "lookup": "kCTFontFormatAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontSlantTrait",
+          "lookup": "kCTFontSlantTrait",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontStyleNameAttribute",
+          "lookup": "kCTFontStyleNameAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontTraitsAttribute",
+          "lookup": "kCTFontTraitsAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAttribute",
+          "lookup": "kCTFontVariationAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAxesAttribute",
+          "lookup": "kCTFontVariationAxesAttribute",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAxisDefaultValueKey",
+          "lookup": "kCTFontVariationAxisDefaultValueKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAxisIdentifierKey",
+          "lookup": "kCTFontVariationAxisIdentifierKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAxisMaximumValueKey",
+          "lookup": "kCTFontVariationAxisMaximumValueKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontVariationAxisMinimumValueKey",
+          "lookup": "kCTFontVariationAxisMinimumValueKey",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontWeightTrait",
+          "lookup": "kCTFontWeightTrait",
+          "status": "available"
+        },
+        {
+          "category": "imported_api_or_data",
+          "import": "_kCTFontWidthTrait",
+          "lookup": "kCTFontWidthTrait",
+          "status": "available"
+        }
+      ],
+      "testable": true
+    }
+  ],
+  "limitations": [
+    "Address availability does not establish ABI compatibility or correct behavior.",
+    "Private or unavailable APIs may not be usable by a shipping iPad app.",
+    "Vendor Steam imports are not tested.",
+    "Runtime class checks supplement imported symbols because dynamic class names may be absent from nm.",
+    "dyld_stub_binder is a loader special symbol. Its unresolved lookup is counted separately from missing API/data imports.",
+    "Compatibility self-tests are separate from raw platform availability. The game cannot run yet."
+  ],
+  "lookup_scope": "RTLD_FIRST on each dependency handle; executable compatibility exports excluded",
+  "objc_classes": [
+    {
+      "name": "NSApplication",
+      "status": "missing"
+    },
+    {
+      "name": "NSWindow",
+      "status": "missing"
+    },
+    {
+      "name": "NSView",
+      "status": "missing"
+    },
+    {
+      "name": "NSOpenGLContext",
+      "status": "missing"
+    },
+    {
+      "name": "NSOpenGLPixelFormat",
+      "status": "missing"
+    },
+    {
+      "name": "NSEvent",
+      "status": "missing"
+    },
+    {
+      "name": "NSPasteboard",
+      "status": "missing"
+    },
+    {
+      "name": "NSScreen",
+      "status": "missing"
+    },
+    {
+      "name": "NSCursor",
+      "status": "missing"
+    },
+    {
+      "name": "NSMenu",
+      "status": "missing"
+    }
+  ],
+  "purpose": "Diagnostic app, not game. No game executable or Steam library is bundled or executed.",
+  "schema_version": 1,
+  "source": {
+    "architecture": "arm64",
+    "bundle_name": "TeamfightManager2.app",
+    "executable_name": "TeamfightManager2",
+    "sha256": "84510dcb04de400144af383f668d4ddc80f7e59705eced56fc97c6c155e34505"
+  },
+  "status": "complete",
+  "public_sanitization": {
+    "original_observation_date": "2026-11-04",
+    "retained": "Exact input hashes, system dependency paths, import names, availability results, non-unique hardware model and OS version.",
+    "removed": [
+      "raw loader errors and runtime addresses",
+      "precise timestamps",
+      "compatibility smoke-test details"
+    ],
+    "scope": "Historical lookup evidence from one iPad; not a compatibility guarantee for another OS, binary version, or device."
+  }
+}

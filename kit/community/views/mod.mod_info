@@ -1,0 +1,16 @@
+{
+  "mod_id": "tfm2_view_plus_ios",
+  "name": "iPad 뷰 플러스 — 비교 화면·밴픽 확장",
+  "author": "Personal iOS adaptation; community ideas: daram2",
+  "version": "0.2.0",
+  "mod_type": "native",
+  "contains_code": true,
+  "description": "iPad용 독립 재구현. 코치 능력치10개 상시 표시, 선수단·현재 영입목록 능력치12개 토글, 비교·정렬·페이지 이동, 선수 숙련챔피언 상위4 얼굴·숙련도. 일러스트 배경·방향·대체그림 전환. 기본72챔피언과 현재공개스탯6개를 Lv6.5로 비교한 레이더와 변화색(녹색/빨강/혼합노랑). 사거리·공속의 활성값 및 확정픽 카드 그림은 미포함. 기본4:3 레이아웃은 패키지에서 제공하며 모드는 그 높이를 덮어쓰지 않습니다. 모든 관리데이터 읽기 전용.",
+  "last_updated": "2026-11-06",
+  "dependencies": [
+    {
+      "mod_id": "base",
+      "version": ">=0.7.1, <0.7.2"
+    }
+  ]
+}

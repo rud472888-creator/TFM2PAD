@@ -1,0 +1,16 @@
+{
+  "mod_id": "tfm2_management_ios",
+  "name": "iPad 관리 — 상품 생산·사용자 티어",
+  "author": "Personal native adaptation; community reference: daram2",
+  "version": "0.3.0",
+  "mod_type": "native",
+  "contains_code": true,
+  "description": "상품 일괄 추가 생산·미등록 선수 상품 제작과 사용자 티어 분류. 티어는 7개 능력치 가중치·경계·레벨·역할/전체 기준을 조정해 현재 팀에 명시적으로 적용합니다. 실전은 유효한 대회·승패·밴 기록이 있을 때만 35% 등 비율을 선택하며 부분 자료 재구성·기기 미검증으로 표시합니다. 자료가 없으면 0% 능력치 모드를 사용합니다. 시설 할인은 수동 설정입니다. 훈련 일괄 배치는 별도 모드이며 불러오기·날짜 진행만으로 저장을 바꾸지 않습니다.",
+  "last_updated": "2026-11-06",
+  "dependencies": [
+    {
+      "mod_id": "base",
+      "version": ">=0.7.1, <0.7.2"
+    }
+  ]
+}

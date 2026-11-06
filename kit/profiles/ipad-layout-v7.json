@@ -1,0 +1,3497 @@
+{
+  "schema": 1,
+  "id": "tfm2-build26425267-ipad-4x3-v7",
+  "app_id": 3009300,
+  "steam_build_id": "26425267",
+  "original_game_universal_sha256": "84510dcb04de400144af383f668d4ddc80f7e59705eced56fc97c6c155e34505",
+  "original_assets_sha256": "3a2bae03024af88a22b9631f717575b083af53df6d9690f7e58275f73a58ea18",
+  "virtual_canvas": {
+    "width": 1920,
+    "height": 1440
+  },
+  "native_patches": [
+    {
+      "va": "0x1008186dc",
+      "before": "e890a852",
+      "after": "8896a852",
+      "purpose": "Default virtual render map height"
+    },
+    {
+      "va": "0x100818760",
+      "before": "e890a852",
+      "after": "8896a852",
+      "purpose": "UI virtual render map height"
+    },
+    {
+      "va": "0x1008941f8",
+      "before": "e890a852",
+      "after": "8896a852",
+      "purpose": "Initial UI root constructor parent rectangle height"
+    },
+    {
+      "va": "0x100894ee8",
+      "before": "e890a852",
+      "after": "8896a852",
+      "purpose": "Reload UI root constructor parent rectangle height"
+    },
+    {
+      "va": "0x100977cec",
+      "before": "ea90a852",
+      "after": "8a96a852",
+      "purpose": "GameClient camera/minimap input branch one virtual height (not generic UI hit testing)"
+    },
+    {
+      "va": "0x100977e58",
+      "before": "ea90a852",
+      "after": "8a96a852",
+      "purpose": "GameClient camera/minimap input branch two virtual height (not generic UI hit testing)"
+    },
+    {
+      "va": "0x100818d0c",
+      "before": "284e0190",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100818d10",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x100818d5c",
+      "before": "284e0190",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100818d60",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x100818eb4",
+      "before": "284e0190",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100818eb8",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x100818f04",
+      "before": "284e0190",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100818f08",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x10081907c",
+      "before": "084e01f0",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100819080",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x10081925c",
+      "before": "084e01f0",
+      "after": "68424091",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle base"
+    },
+    {
+      "va": "0x100819260",
+      "before": "0001c33d",
+      "after": "00adf43d",
+      "purpose": "Fullscreen UI backdrop actual-root-rectangle color extent"
+    },
+    {
+      "va": "0x1031db7ec",
+      "section": "__const",
+      "kind": "float32",
+      "before": "00007044",
+      "after": "0000a544",
+      "purpose": "TitleHighlight native GameClient viewport gains360px height; retains60px top/bottom margin, width870 and native world camera"
+    },
+    {
+      "va": "0x10024528c",
+      "before": "8a75a852",
+      "after": "6a80a852",
+      "purpose": "Title console menu fitter fixedY344→524"
+    },
+    {
+      "va": "0x10024533c",
+      "before": "ea8fa852",
+      "after": "ca92a852",
+      "purpose": "Title desktop fitter bottom1020→1200"
+    },
+    {
+      "va": "0x100245348",
+      "before": "aa79a852",
+      "after": "4aa16051",
+      "purpose": "Title desktop fitter cap410→590 using live1200float-bit subtraction"
+    },
+    {
+      "va": "0x1009e8084",
+      "before": "0a0d080b",
+      "after": "25000014",
+      "purpose": "Preserve raw physical CursorMoved position; bypass obsolete centered16:9 normalization before existing UI root mapping"
+    },
+    {
+      "va": "0x1032da42c",
+      "before": "00007044",
+      "after": "0000a544",
+      "purpose": "Regular in-match viewport height; width960 and world camera2048 remain unchanged",
+      "section": "__const",
+      "segment": "__TEXT",
+      "kind": "float32"
+    },
+    {
+      "va": "0x1032e3684",
+      "before": "00807344",
+      "after": "00c0a644",
+      "purpose": "Wide in-match viewport: preserve50px top and56px bottom margins on1440 canvas",
+      "section": "__const",
+      "segment": "__TEXT",
+      "kind": "float32"
+    },
+    {
+      "va": "0x1032e3694",
+      "before": "00003444",
+      "after": "00008744",
+      "purpose": "Wide minimap outer render origin moves down360; size360 remains unchanged",
+      "section": "__const",
+      "segment": "__TEXT",
+      "kind": "float32"
+    },
+    {
+      "va": "0x103206774",
+      "before": "00003944",
+      "after": "00808944",
+      "purpose": "Wide minimap inner input origin moves with render origin; preserve20px inset",
+      "section": "__const",
+      "segment": "__TEXT",
+      "kind": "float32"
+    },
+    {
+      "va": "0x1032e36bc",
+      "before": "0080e443",
+      "after": "00401f44",
+      "purpose": "Wide minimap camera indicator half-viewport height:1334/2-30",
+      "section": "__const",
+      "segment": "__TEXT",
+      "kind": "float32"
+    },
+    {
+      "va": "0x100977d14",
+      "before": "4301271e",
+      "after": "43040c5e",
+      "purpose": "Wide minimap Y bounds use already-loaded vector Y (1100), replacing duplicated740 immediate"
+    },
+    {
+      "va": "0x100977e80",
+      "before": "4301271e",
+      "after": "43040c5e",
+      "purpose": "Wide minimap Y bounds use already-loaded vector Y (1100), replacing duplicated740 immediate"
+    },
+    {
+      "va": "0x100977f14",
+      "before": "0a009852",
+      "after": "0a008c52",
+      "purpose": "Regular minimap inner input Y731→1091 low16 bits"
+    },
+    {
+      "va": "0x100977f18",
+      "before": "ca86a872",
+      "after": "0a91a872",
+      "purpose": "Regular minimap inner input Y731→1091 high16 bits"
+    },
+    {
+      "va": "0x10097837c",
+      "before": "0a009852",
+      "after": "0a008c52",
+      "purpose": "Regular minimap inner input Y731→1091 low16 bits"
+    },
+    {
+      "va": "0x100978380",
+      "before": "ca86a872",
+      "after": "0a91a872",
+      "purpose": "Regular minimap inner input Y731→1091 high16 bits"
+    },
+    {
+      "va": "0x101f0fd24",
+      "before": "08009852",
+      "after": "08009c52",
+      "purpose": "Regular minimap outer render Y711→1071 low16 bits"
+    },
+    {
+      "va": "0x101f0fd28",
+      "before": "2886a872",
+      "after": "a890a872",
+      "purpose": "Regular minimap outer render Y711→1071 high16 bits"
+    }
+  ],
+  "assets": [
+    {
+      "name": "asset/base/ui/layout/news",
+      "sha256": "479c6827b88258c62c59a4518a94a0566a0d019e9e598463b9453d93818acd87",
+      "properties": [
+        {
+          "path": "news:news_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "news:news_ui/#background:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "news:news_ui/#background:color/#list:scroll_view",
+          "property": "height",
+          "before": "902px",
+          "after": "1262px"
+        },
+        {
+          "path": "news:news_ui/#background:color/#empty_hint:label",
+          "property": "height",
+          "before": "902px",
+          "after": "1262px"
+        },
+        {
+          "path": "news:news_ui/#contents:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/news_d",
+      "sha256": "6f117c98406cb072e0fc4d324489168995582c8e94179c050d6ddba835556b6e",
+      "properties": [
+        {
+          "path": "news:news_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "news:news_ui/#background:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "news:news_ui/#background:color/#list:scroll_view",
+          "property": "height",
+          "before": "810px",
+          "after": "1170px"
+        },
+        {
+          "path": "news:news_ui/#background:color/#empty_hint:label",
+          "property": "height",
+          "before": "810px",
+          "after": "1170px"
+        },
+        {
+          "path": "news:news_ui/#contents:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/home_d",
+      "sha256": "dbc21c001a46ebedbc548c1c857a4f3e6eb81c743d26962b7cdd04b408eb31bf",
+      "properties": [
+        {
+          "path": "home:home_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#top:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#left:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#left:empty/#personal_record:color",
+          "property": "y",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#left:empty/#team_record:color",
+          "property": "y",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#left:empty/#finance:color",
+          "property": "y",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#queue:color",
+          "property": "y",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#agenda:color",
+          "property": "height",
+          "before": "360px",
+          "after": "720px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#agenda:color/#notes:empty",
+          "property": "height",
+          "before": "286px",
+          "after": "646px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#agenda:color/#empty:label",
+          "property": "height",
+          "before": "286px",
+          "after": "646px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#standing:color",
+          "property": "height",
+          "before": "360px",
+          "after": "720px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#standing:color/#data:color",
+          "property": "height",
+          "before": "294px",
+          "after": "654px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/home",
+      "sha256": "e1d77a312d613dc6a649e2188bf42cb2e20767ca34a20272c809241dec9e61c4",
+      "properties": [
+        {
+          "path": "home:home_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty",
+          "property": "height",
+          "before": "687px",
+          "after": "1047px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#left:empty",
+          "property": "height",
+          "before": "687px",
+          "after": "1047px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#standing:color",
+          "property": "height",
+          "before": "687px",
+          "after": "1047px"
+        },
+        {
+          "path": "home:home_ui/#data:empty/#bottom:empty/#standing:color/#data:color",
+          "property": "height",
+          "before": "600px",
+          "after": "960px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/main",
+      "sha256": "1407c9cd2093a0dd16a685788cb80300df58bf47e408af29ea0d431b5ef6ec36",
+      "properties": [
+        {
+          "path": "main:main_ui/#top:empty",
+          "property": "height",
+          "before": "992px",
+          "after": "1352px"
+        },
+        {
+          "path": "main:main_ui/#top:empty/#left:color",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/main_d",
+      "sha256": "e1486445be8a0d49762e036a5e5616690d3269a6d35ae803b1c52e20d7b64fc6",
+      "properties": [
+        {
+          "path": "main:main_ui/#top:empty",
+          "property": "height",
+          "before": "992px",
+          "after": "1352px"
+        },
+        {
+          "path": "main:main_ui/#top:empty/#left:color",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/finance",
+      "sha256": "372c2c48349bc7c7c19d41bc0d110e49b338c750cfcf4df0e005d04a214f7f2b",
+      "properties": [
+        {
+          "path": "finance:finance_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "finance:finance_ui/#budget_popup_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "finance:finance_ui/#loan_popup_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty",
+          "property": "height",
+          "before": "820px",
+          "after": "1180px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#left_col:empty",
+          "property": "height",
+          "before": "820px",
+          "after": "1180px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#right_col:empty",
+          "property": "height",
+          "before": "820px",
+          "after": "1180px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#bank_body:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#bank_body:empty/#columns:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#bank_body:empty/#columns:empty/#value_panel:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#bank_body:empty/#columns:empty/#bank_panel:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Finance columns retain summary/header geometry and grow to root bottom"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#left_col:empty/#ledger_panel:color",
+          "property": "height",
+          "before": "488px",
+          "after": "848px",
+          "reason": "Bottom ledger/breakdown panels absorb height; charts and summary cards unchanged"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#left_col:empty/#ledger_panel:color/#list:scroll_view",
+          "property": "height",
+          "before": "382px",
+          "after": "742px",
+          "reason": "Bottom ledger/breakdown panels absorb height; charts and summary cards unchanged"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#right_col:empty/#breakdown_row:empty",
+          "property": "height",
+          "before": "376px",
+          "after": "736px",
+          "reason": "Bottom ledger/breakdown panels absorb height; charts and summary cards unchanged"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#right_col:empty/#breakdown_row:empty/#income_panel:color",
+          "property": "height",
+          "before": "376px",
+          "after": "736px",
+          "reason": "Bottom breakdown background follows enlarged row"
+        },
+        {
+          "path": "finance:finance_ui/#body:empty/#main_row:empty/#right_col:empty/#breakdown_row:empty/#expense_panel:color",
+          "property": "height",
+          "before": "376px",
+          "after": "736px",
+          "reason": "Bottom breakdown background follows enlarged row"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/player_detail/layout",
+      "sha256": "94378fccca9825622257c8445e57f0031d796fef062ff3fbc216e8cde612ab91",
+      "properties": [
+        {
+          "path": "player_detail:player_detail_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#history:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#history:color/#list:scroll_view",
+          "property": "height",
+          "before": "682px",
+          "after": "1042px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#navigation_popup_container:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/player_detail/layout_d",
+      "sha256": "8bce0214f3ec9437210be39b9f1dbf3e0a67665f92b12c8f62e183f927f07a38",
+      "properties": [
+        {
+          "path": "player_detail:player_detail_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#history:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#history:color/#list:scroll_view",
+          "property": "height",
+          "before": "682px",
+          "after": "1042px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        },
+        {
+          "path": "player_detail:player_detail_ui/#navigation_popup_container:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "History viewport and overlay follow root; intrinsic player cards remain unchanged"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/team_data",
+      "sha256": "12a293be3067eceede3eed1c1206c30710b827db77262e525856a713e217b86d",
+      "properties": [
+        {
+          "path": "team_data:team_data_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "History panel/viewport follows main content area"
+        },
+        {
+          "path": "team_data:team_data_ui/#history:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "History panel/viewport follows main content area"
+        },
+        {
+          "path": "team_data:team_data_ui/#history:color/#list:scroll_view",
+          "property": "height",
+          "before": "682px",
+          "after": "1042px",
+          "reason": "History panel/viewport follows main content area"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#team_info:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#stadium:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#middle_left:empty",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#middle_left:empty/#competition:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#middle_left:empty/#fan_status:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#awards:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#bottom_left:empty",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#bottom_left:empty/#legends:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#bottom_left:empty/#player_fans:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#rivals:color",
+          "property": "height",
+          "before": "295.33px",
+          "after": "415.33px",
+          "reason": "Three table rows share extra360px equally; preserve15px gaps"
+        },
+        {
+          "path": "team_data:team_data_ui/#contents:empty/#bottom_left:empty/#player_fans:color/#fan_list:scroll_view",
+          "property": "height",
+          "before": "231.33px",
+          "after": "351.33px",
+          "reason": "Fan viewport follows its enlarged table card; row size unchanged"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/academy",
+      "sha256": "d7f7bfb1877a9a7909ac53618a858b34bfdf6d8ddc039f6d43915eb5f75c0f5e",
+      "properties": [
+        {
+          "path": "academy:academy_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "academy:academy_ui/#academy_popup_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "academy:academy_ui/#no_academy:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#no_academy:empty/#left_panel:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#no_academy:empty/#right_panel:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#left_panel:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Preserve main and no-academy full-panel backgrounds"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#trainee_scroll:scroll_view",
+          "property": "height",
+          "before": "366px",
+          "after": "726px",
+          "reason": "Trainee viewport gains available rows; child row size unchanged"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#scrim_header:label",
+          "property": "y",
+          "before": "696px",
+          "after": "1056px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#scrim_rows:empty",
+          "property": "y",
+          "before": "730px",
+          "after": "1090px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#scrim_empty:label",
+          "property": "y",
+          "before": "736px",
+          "after": "1096px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#league_header:label",
+          "property": "y",
+          "before": "696px",
+          "after": "1056px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#league_last_champion:label",
+          "property": "y",
+          "before": "922px",
+          "after": "1282px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#league_rows:empty",
+          "property": "y",
+          "before": "730px",
+          "after": "1090px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        },
+        {
+          "path": "academy:academy_ui/#main:empty/#right_panel:color/#league_empty:label",
+          "property": "y",
+          "before": "736px",
+          "after": "1096px",
+          "reason": "Keep lower scrim/league section together below expanded trainee viewport"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/staff/layout_d",
+      "sha256": "dbcab85cff2ee6f9d2d3770277bcd0fe33929ce7bdc4844756d8e9f7eb4d5200",
+      "properties": [
+        {
+          "path": "staff:staff_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "staff:staff_ui/#data:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "staff:staff_ui/#data:color/#contents:empty",
+          "property": "height",
+          "before": "830px",
+          "after": "1190px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "staff:staff_ui/#data:color/#pagination:empty",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/staff/layout",
+      "sha256": "0448b828553911215bcd70ca2bca857cd6a2366f18f0925a64ce64a6b74e982c",
+      "properties": [
+        {
+          "path": "staff:staff_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "staff:staff_ui/#data:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "staff:staff_ui/#data:color/#contents:empty",
+          "property": "height",
+          "before": "830px",
+          "after": "1190px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "staff:staff_ui/#data:color/#pagination:empty",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/statistics",
+      "sha256": "3035b7e67b7b1953bd78c836af2092a103c290a1424a4e73a054f744db083561",
+      "properties": [
+        {
+          "path": "statistics:statistics_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "statistics:statistics_ui/#popup_container:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#athlete:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#athlete:empty/#data:scroll_view",
+          "property": "height",
+          "before": "860px",
+          "after": "1220px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#champion:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#champion:empty/#data:scroll_view",
+          "property": "height",
+          "before": "860px",
+          "after": "1220px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#team:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#team:empty/#data:empty",
+          "property": "height",
+          "before": "860px",
+          "after": "1220px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        },
+        {
+          "path": "statistics:statistics_ui/#data:color/#team:empty/#data:empty/#contents:empty",
+          "property": "height",
+          "before": "860px",
+          "after": "1220px",
+          "reason": "Statistics list viewport gains visible rows; headers unchanged"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/squad/layout_d",
+      "sha256": "f86c8d6989eb2e2e1312574bbbb2810decd08c1bf51ac72e934ffd366083e5ff",
+      "properties": [
+        {
+          "path": "squad:squad_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "squad:squad_ui/#data:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#contents:empty",
+          "property": "height",
+          "before": "826px",
+          "after": "1186px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#delegate_starting_to_coach:color_icon_button",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#pagination:empty",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/schedule",
+      "sha256": "f8f9d604488f37a6561d362fa3814d67554ce723f4adb9fe54671b6191cbd48b",
+      "properties": [
+        {
+          "path": "schedule:schedule_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "schedule:schedule_ui/#panel:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Calendar/list container gains available height; templates unchanged"
+        },
+        {
+          "path": "schedule:schedule_ui/#panel:color/#calendar:empty",
+          "property": "height",
+          "before": "896px",
+          "after": "1256px",
+          "reason": "Calendar/list container gains available height; templates unchanged"
+        },
+        {
+          "path": "schedule:schedule_ui/#panel:color/#list:scroll_view",
+          "property": "height",
+          "before": "896px",
+          "after": "1256px",
+          "reason": "Calendar/list container gains available height; templates unchanged"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/squad/layout",
+      "sha256": "1f93474bf3047845ee848c5da86b2460f73b23dca7ece5a63ff8a6365af0914d",
+      "properties": [
+        {
+          "path": "squad:squad_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "squad:squad_ui/#data:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#contents:empty",
+          "property": "height",
+          "before": "830px",
+          "after": "1190px",
+          "reason": "Enlarge roster/staff body while keeping individual player/staff cards unchanged"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#delegate_starting_to_coach:color_icon_button",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        },
+        {
+          "path": "squad:squad_ui/#data:color/#pagination:empty",
+          "property": "y",
+          "before": "928px",
+          "after": "1288px",
+          "reason": "Keep footer action/pagination at original bottom inset"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/records",
+      "sha256": "2802a3239e3d8f15bdadc39f4fa3cdde15ff3d45584daba21de2be4d9f90f256",
+      "properties": [
+        {
+          "path": "records:records_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "records:records_ui/#league_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#league_data:empty/#standing:color",
+          "property": "height",
+          "before": "695px",
+          "after": "1055px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#league_data:empty/#match_history:scroll_view",
+          "property": "height",
+          "before": "695px",
+          "after": "1055px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty/#left_panel:color",
+          "property": "height",
+          "before": "843px",
+          "after": "1203px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty/#left_panel:color/#table:scroll_view",
+          "property": "height",
+          "before": "737px",
+          "after": "1097px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty/#right_panel:color",
+          "property": "height",
+          "before": "843px",
+          "after": "1203px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty/#right_panel:color/#table:scroll_view",
+          "property": "height",
+          "before": "737px",
+          "after": "1097px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty/#columns:empty",
+          "property": "height",
+          "before": "838px",
+          "after": "1198px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty/#columns:empty/#spring:color",
+          "property": "height",
+          "before": "838px",
+          "after": "1198px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty/#columns:empty/#spring:color/#teams:empty",
+          "property": "height",
+          "before": "770px",
+          "after": "1130px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty/#columns:empty/#summer:color",
+          "property": "height",
+          "before": "838px",
+          "after": "1198px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#all_pro_data:empty/#columns:empty/#summer:color/#teams:empty",
+          "property": "height",
+          "before": "770px",
+          "after": "1130px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#history_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#history_data:empty/#panel:color",
+          "property": "height",
+          "before": "838px",
+          "after": "1198px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#history_data:empty/#panel:color/#table:scroll_view",
+          "property": "height",
+          "before": "762px",
+          "after": "1122px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#manager_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#manager_data:empty/#career_panel:color",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#manager_data:empty/#career_panel:color/#reviews:scroll_view",
+          "property": "height",
+          "before": "403px",
+          "after": "763px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#manager_data:empty/#ranking_panel:color",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#manager_data:empty/#ranking_panel:color/#table:scroll_view",
+          "property": "height",
+          "before": "777px",
+          "after": "1137px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#hall_of_fame_data:empty",
+          "property": "height",
+          "before": "913px",
+          "after": "1273px",
+          "reason": "Preserve headers and bottom padding; enlarge record viewport/panel"
+        },
+        {
+          "path": "records:records_ui/#career_data:empty/#page_nav:color",
+          "property": "y",
+          "before": "858px",
+          "after": "1218px",
+          "reason": "Keep pagination at bottom"
+        },
+        {
+          "path": "records:records_ui/#league_data:empty/#group_bottom:color",
+          "property": "height",
+          "before": "340px",
+          "after": "700px",
+          "reason": "Lower stacked panel absorbs extra height without resizing preceding panel or rows"
+        },
+        {
+          "path": "records:records_ui/#league_data:empty/#group_bottom:color/#data:empty",
+          "property": "height",
+          "before": "290px",
+          "after": "650px",
+          "reason": "Lower stacked panel absorbs extra height without resizing preceding panel or rows"
+        },
+        {
+          "path": "records:records_ui/#hall_of_fame_data:empty/#all_star_panel:color",
+          "property": "height",
+          "before": "360px",
+          "after": "720px",
+          "reason": "Lower stacked panel absorbs extra height without resizing preceding panel or rows"
+        },
+        {
+          "path": "records:records_ui/#hall_of_fame_data:empty/#all_star_panel:color/#table:scroll_view",
+          "property": "height",
+          "before": "248px",
+          "after": "608px",
+          "reason": "Lower stacked panel absorbs extra height without resizing preceding panel or rows"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/scout",
+      "sha256": "895d8393e040c7302700b8a82982b2baaf2effd52b4d860632b46ba1cf3f6d40",
+      "properties": [
+        {
+          "path": "scout:scout_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px",
+          "reason": "Maintain existing bottom margin within taller main content area"
+        },
+        {
+          "path": "scout:scout_ui/#popup_container:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "scout:scout_ui/#bulk_delete_confirm_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Fullscreen backdrop follows virtual canvas; centered popup keeps intrinsic size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#contract:color",
+          "property": "height",
+          "before": "846px",
+          "after": "1206px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#contract_all:color",
+          "property": "height",
+          "before": "846px",
+          "after": "1206px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#search:empty/#conditions:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#search:empty/#status:color",
+          "property": "height",
+          "before": "916px",
+          "after": "1276px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#interested:color",
+          "property": "height",
+          "before": "846px",
+          "after": "1206px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#released:color",
+          "property": "height",
+          "before": "846px",
+          "after": "1206px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#all_players:color",
+          "property": "height",
+          "before": "846px",
+          "after": "1206px",
+          "reason": "List body follows enlarged parent; 100% list viewports inherit size"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#all_players:color/#list:scroll_view",
+          "property": "height",
+          "before": "778px",
+          "after": "1138px",
+          "reason": "Viewport gains visible rows; row/content heights unchanged"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#search:empty/#conditions:color/#reset_btn:color_icon_button",
+          "property": "y",
+          "before": "852px",
+          "after": "1212px",
+          "reason": "Keep search action/footer bottom offset"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#search:empty/#conditions:color/#page_buttons:empty",
+          "property": "y",
+          "before": "852px",
+          "after": "1212px",
+          "reason": "Keep search action/footer bottom offset"
+        },
+        {
+          "path": "scout:scout_ui/#contents:empty/#search:empty/#status:color/#dispatch_btn:color_icon_button",
+          "property": "y",
+          "before": "852px",
+          "after": "1212px",
+          "reason": "Keep search action/footer bottom offset"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/title_c",
+      "sha256": "251de85752857fd49ce3e90fe9d2727f79e0a5d2d5c2f775946b9668940c5015",
+      "properties": [
+        {
+          "path": "body:color/#logo:image",
+          "property": "y",
+          "before": "96px",
+          "after": "276px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#icon:image",
+          "property": "y",
+          "before": "304px",
+          "after": "484px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#line1:color",
+          "property": "y",
+          "before": "304px",
+          "after": "484px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#line2:color",
+          "property": "y",
+          "before": "304px",
+          "after": "484px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#buttons:empty",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#multiplayer_buttons:empty",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#host_saved_tooltip_hitbox:color",
+          "property": "y",
+          "before": "480px",
+          "after": "660px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#back:bouncing_color_icon_button",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#playback_overlay:color",
+          "property": "height",
+          "before": "960px",
+          "after": "1320px",
+          "reason": "Credits overlay matches genuine resized TitleHighlight viewport, preserving60px top/bottom margins"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#credits_scroll:scroll_view",
+          "property": "height",
+          "before": "780px",
+          "after": "1140px",
+          "reason": "Credits viewport gains360px without changing text size or wrapping width"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/title",
+      "sha256": "029c06a48260c3f81df6fe48ee10796f1b6a8b17c9f6b4a6a626e0e3c77882ab",
+      "properties": [
+        {
+          "path": "body:color/#logo:image",
+          "property": "y",
+          "before": "152px",
+          "after": "332px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#icon:image",
+          "property": "y",
+          "before": "360px",
+          "after": "540px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#line1:color",
+          "property": "y",
+          "before": "360px",
+          "after": "540px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#line2:color",
+          "property": "y",
+          "before": "360px",
+          "after": "540px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#buttons:empty",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#multiplayer_buttons:empty",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#host_saved_tooltip_hitbox:color",
+          "property": "y",
+          "before": "480px",
+          "after": "660px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#back:bouncing_color_icon_button",
+          "property": "y",
+          "before": "410px",
+          "after": "590px",
+          "reason": "Center original title menu column in taller4:3 reference canvas; preserve intrinsic sizes"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#playback_overlay:color",
+          "property": "height",
+          "before": "960px",
+          "after": "1320px",
+          "reason": "Credits overlay matches genuine resized TitleHighlight viewport, preserving60px top/bottom margins"
+        },
+        {
+          "path": "body:color/#credits_screen:empty/#credits_scroll:scroll_view",
+          "property": "height",
+          "before": "780px",
+          "after": "1140px",
+          "reason": "Credits viewport gains360px without changing text size or wrapping width"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/ingame",
+      "sha256": "6c0df9816330f90e00ff40571925e9c0c1df9bba32193549076152d1cb4e776a",
+      "properties": [
+        {
+          "path": "ingame:ingame_ui",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Actual in-match root uses the same4:3 reference canvas as v5 UI map"
+        },
+        {
+          "path": "ingame:ingame_ui/#center_log:empty",
+          "property": "height",
+          "before": "960px",
+          "after": "1320px",
+          "reason": "Center transient overlays in the genuine taller regular world viewport"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_info:color",
+          "property": "y",
+          "before": "1035px",
+          "after": "1395px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#option_buttons:empty",
+          "property": "y",
+          "before": "711px",
+          "after": "1071px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#speed_buttons:empty",
+          "property": "y",
+          "before": "1031px",
+          "after": "1391px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#champion_detail_slots:empty",
+          "property": "y",
+          "before": "1035px",
+          "after": "1395px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#chat_list:empty",
+          "property": "y",
+          "before": "780px",
+          "after": "1140px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#chat_btn_panel:empty",
+          "property": "y",
+          "before": "988px",
+          "after": "1348px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#player_info:color",
+          "property": "y",
+          "before": "841px",
+          "after": "1201px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#auto:color_icon_button",
+          "property": "y",
+          "before": "717px",
+          "after": "1077px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#camera_buttons:empty",
+          "property": "y",
+          "before": "382px",
+          "after": "562px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#spectate_loading:color",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Opaque spectator-loading cover fills the4:3 in-match root"
+        },
+        {
+          "path": "ingame:ingame_ui/#spectate_loading:color/#label:label",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Center spectator-loading label in the same full-height cover"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/ingame_c",
+      "sha256": "10d4d81f3fed0880dc2ba6e4d82295e998758ed27295fde35662c0ef52c1ca53",
+      "properties": [
+        {
+          "path": "ingame:ingame_ui",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Actual in-match root uses the same4:3 reference canvas as v5 UI map"
+        },
+        {
+          "path": "ingame:ingame_ui/#center_log:empty",
+          "property": "height",
+          "before": "960px",
+          "after": "1320px",
+          "reason": "Center transient overlays in the genuine taller regular world viewport"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_info:color",
+          "property": "y",
+          "before": "1020.0px",
+          "after": "1380px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#option_buttons:empty",
+          "property": "y",
+          "before": "711px",
+          "after": "1071px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#speed_buttons:empty",
+          "property": "y",
+          "before": "1020.0px",
+          "after": "1380px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#champion_detail_slots:empty",
+          "property": "y",
+          "before": "1022.0px",
+          "after": "1382px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#chat_list:empty",
+          "property": "y",
+          "before": "801.4px",
+          "after": "1161.4px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#chat_btn_panel:empty",
+          "property": "y",
+          "before": "988px",
+          "after": "1348px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#player_info:color",
+          "property": "y",
+          "before": "759.8px",
+          "after": "1119.8px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#auto:color_icon_button",
+          "property": "y",
+          "before": "730.4px",
+          "after": "1090.4px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#wide_data:empty/#camera_buttons:empty",
+          "property": "y",
+          "before": "296px",
+          "after": "476px",
+          "reason": "Relocate existing HUD container; preserve all child/icon/font sizes"
+        },
+        {
+          "path": "ingame:ingame_ui/#spectate_loading:color",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Opaque spectator-loading cover fills the4:3 in-match root"
+        },
+        {
+          "path": "ingame:ingame_ui/#spectate_loading:color/#label:label",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px",
+          "reason": "Center spectator-loading label in the same full-height cover"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/today_match",
+      "sha256": "f9a623905dc99207663468259ddc71db2ca46ac73f82d7fa844786040c97dab8",
+      "properties": [
+        {
+          "path": "today_match:today_match_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "today_match:today_match_ui/#container:color",
+          "property": "height",
+          "before": "921px",
+          "after": "1281px"
+        },
+        {
+          "path": "today_match:today_match_ui/#container:color/#scroll:scroll_view",
+          "property": "height",
+          "before": "853px",
+          "after": "1213px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/today_match_c",
+      "sha256": "efe1ac0f9c101197d137b5952c2bdbb486345143ba74ca9727578b66a0f61857",
+      "properties": [
+        {
+          "path": "today_match:today_match_ui",
+          "property": "height",
+          "before": "776px",
+          "after": "1136px"
+        },
+        {
+          "path": "today_match:today_match_ui/#container:color",
+          "property": "height",
+          "before": "776px",
+          "after": "1136px"
+        },
+        {
+          "path": "today_match:today_match_ui/#container:color/#scroll:scroll_view",
+          "property": "height",
+          "before": "692px",
+          "after": "1052px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/lineup",
+      "sha256": "e0451a99cea4e6469cc9b748899a71f47e852689d51e11f77541f041c8c6a818",
+      "properties": [
+        {
+          "path": "main:lineup_ui/#roaster:color",
+          "property": "height",
+          "before": "766px",
+          "after": "1126px"
+        },
+        {
+          "path": "main:lineup_ui/#roaster:color/#scroll:scroll_view",
+          "property": "height",
+          "before": "710px",
+          "after": "1070px"
+        },
+        {
+          "path": "main:lineup_ui/#selected:color",
+          "property": "y",
+          "before": "852px",
+          "after": "1212px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/lineup_c",
+      "sha256": "72aa0e520fdf49902df0d53a74e3d5b8df279bdf641eed4bdcd13fdb9c1ddeac",
+      "properties": [
+        {
+          "path": "main:lineup_ui/#roaster:color",
+          "property": "height",
+          "before": "620px",
+          "after": "980px"
+        },
+        {
+          "path": "main:lineup_ui/#roaster:color/#scroll:scroll_view",
+          "property": "height",
+          "before": "564px",
+          "after": "924px"
+        },
+        {
+          "path": "main:lineup_ui/#selected:color",
+          "property": "y",
+          "before": "744px",
+          "after": "1104px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/layout",
+      "sha256": "71fe98575fd64dcbbdc588d06bc0e5c6c5a01bffa0831ba2430ff3146dead96f",
+      "properties": [
+        {
+          "path": "main:match_ui/#blue_picks:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#champions:scroll_view",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#champions_bg:color",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#player_turn_highlight:canvas",
+          "property": "height",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "main:match_ui/#champion_pool_wait_overlay:color",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#champion_info:empty",
+          "property": "y",
+          "before": "690px",
+          "after": "1050px"
+        },
+        {
+          "path": "main:match_ui/#blue_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#blue_table:color",
+          "property": "height",
+          "before": "411.5px",
+          "after": "591.5px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#red_table:color",
+          "property": "height",
+          "before": "411.5px",
+          "after": "591.5px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/layout_c",
+      "sha256": "38e62919666d66e08aac4952cd53a1e63cc1a66833f23531de177aa8a72702f0",
+      "properties": [
+        {
+          "path": "main:match_ui/#blue_picks:empty",
+          "property": "height",
+          "before": "900px",
+          "after": "1260px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty",
+          "property": "height",
+          "before": "900px",
+          "after": "1260px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty",
+          "property": "height",
+          "before": "900px",
+          "after": "1260px"
+        },
+        {
+          "path": "main:match_ui/#champions:scroll_view",
+          "property": "height",
+          "before": "430px",
+          "after": "790px"
+        },
+        {
+          "path": "main:match_ui/#champions_bg:color",
+          "property": "height",
+          "before": "430px",
+          "after": "790px"
+        },
+        {
+          "path": "main:match_ui/#player_turn_highlight:canvas",
+          "property": "height",
+          "before": "436px",
+          "after": "796px"
+        },
+        {
+          "path": "main:match_ui/#champion_pool_wait_overlay:color",
+          "property": "height",
+          "before": "430px",
+          "after": "790px"
+        },
+        {
+          "path": "main:match_ui/#champion_info:empty",
+          "property": "y",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#blue_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#blue_table:color",
+          "property": "height",
+          "before": "398px",
+          "after": "578px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#red_table:color",
+          "property": "height",
+          "before": "398px",
+          "after": "578px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/layout_d",
+      "sha256": "1f5b7f4011e77fc00673f2dc7a0aa5cc668f2243d7cf8028a6bdab89009a247f",
+      "properties": [
+        {
+          "path": "main:match_ui/#blue_picks:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty",
+          "property": "height",
+          "before": "910px",
+          "after": "1270px"
+        },
+        {
+          "path": "main:match_ui/#champions:scroll_view",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#champions_bg:color",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#player_turn_highlight:canvas",
+          "property": "height",
+          "before": "576px",
+          "after": "936px"
+        },
+        {
+          "path": "main:match_ui/#champion_pool_wait_overlay:color",
+          "property": "height",
+          "before": "570px",
+          "after": "930px"
+        },
+        {
+          "path": "main:match_ui/#champion_info:empty",
+          "property": "y",
+          "before": "690px",
+          "after": "1050px"
+        },
+        {
+          "path": "main:match_ui/#blue_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#blue_table:color",
+          "property": "height",
+          "before": "411.5px",
+          "after": "591.5px"
+        },
+        {
+          "path": "main:match_ui/#red_picks:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "10px",
+          "after": "20px"
+        },
+        {
+          "path": "main:match_ui/#swap:empty/#red_table:color",
+          "property": "height",
+          "before": "411.5px",
+          "after": "591.5px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/swap_slot",
+      "sha256": "3695e753dc0dcb5c139b25b1703d54b05a1d82c6c7678dc04238589da9bc1473",
+      "properties": [
+        {
+          "path": "slot:color_icon_button",
+          "property": "height",
+          "before": "70px",
+          "after": "106px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/blue_pick_slot",
+      "sha256": "81247c0390fdb3dac934d55e4df3ee0b0b0137c33b6b241919eb08fb63d10ac0",
+      "properties": [
+        {
+          "path": "pick_slot:color_icon_button",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#turn_outline:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge_title:label",
+          "property": "y",
+          "before": "33px",
+          "after": "65px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge:empty",
+          "property": "y",
+          "before": "58px",
+          "after": "90px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#center:color",
+          "property": "y",
+          "before": "20px",
+          "after": "52px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#champion:empty",
+          "property": "y",
+          "before": "-10px",
+          "after": "22px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/red_pick_slot",
+      "sha256": "e0cff1f7a22c669b65467bbfc50e7db3043a2130c2555f6c275d3833fcca49bd",
+      "properties": [
+        {
+          "path": "pick_slot:color_icon_button",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty",
+          "property": "height",
+          "before": "174px",
+          "after": "238px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#turn_outline:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#bar:color",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#position:image",
+          "property": "y",
+          "before": "84px",
+          "after": "116px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge_title:label",
+          "property": "y",
+          "before": "33px",
+          "after": "65px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge:empty",
+          "property": "y",
+          "before": "58px",
+          "after": "90px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "122px",
+          "after": "154px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#name:label",
+          "property": "y",
+          "before": "71px",
+          "after": "103px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#center:color",
+          "property": "y",
+          "before": "20px",
+          "after": "52px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#champion:empty",
+          "property": "y",
+          "before": "-10px",
+          "after": "22px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result",
+      "sha256": "a140d4aee1d34d20a7bd4375d336179e3cec9426e9d1b83dd084fed5990fa380",
+      "properties": [
+        {
+          "path": "main:match_result_ui/#contents:color",
+          "property": "y",
+          "before": "122px",
+          "after": "158px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color",
+          "property": "height",
+          "before": "828px",
+          "after": "1116px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "23px",
+          "after": "62px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/padding:",
+          "property": "top",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/padding:",
+          "property": "bottom",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "23px",
+          "after": "62px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/padding:",
+          "property": "top",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/padding:",
+          "property": "bottom",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#stats:empty",
+          "property": "height",
+          "before": "298px",
+          "after": "370px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#stats:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "0px",
+          "after": "9px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty",
+          "property": "height",
+          "before": "365px",
+          "after": "581px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#y:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#graph:canvas",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#events:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#event_popup:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result_component/blue_damage_slot",
+      "sha256": "f6f20eb047f7927b681e2bccba3c4efdcb1939231609ef742b5bacb251ed7acd",
+      "properties": [
+        {
+          "path": "blue_damage_slot:match_result_damage_slot",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#items:empty",
+          "property": "y",
+          "before": "71px",
+          "after": "83px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#track:color",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#bar:canvas",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#rating:label",
+          "property": "y",
+          "before": "68px",
+          "after": "80px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#kda:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#cs:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result_component/red_damage_slot",
+      "sha256": "2996bd4b45154069870033978a8fbc3dd195ebebb6709879de402a271dec55a5",
+      "properties": [
+        {
+          "path": "red_damage_slot:match_result_damage_slot",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#items:empty",
+          "property": "y",
+          "before": "71px",
+          "after": "83px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#track:color",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#bar:canvas",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#rating:label",
+          "property": "y",
+          "before": "68px",
+          "after": "80px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#kda:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#cs:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/swap_slot_c",
+      "sha256": "0d6f1bae2055b70d80030a00b0bf6ea5eff560b489643851626b0a6c7faf9d1c",
+      "properties": [
+        {
+          "path": "slot:color_icon_button",
+          "property": "height",
+          "before": "70px",
+          "after": "106px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/blue_pick_slot_c",
+      "sha256": "c3029372161d5f74ee427aeab015e2a2680a7d4c3e37f4d5231916040203fa90",
+      "properties": [
+        {
+          "path": "pick_slot:color_icon_button",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#turn_outline:color",
+          "property": "height",
+          "before": "168px",
+          "after": "232px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge_title:label",
+          "property": "y",
+          "before": "32.6px",
+          "after": "64.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge:empty",
+          "property": "y",
+          "before": "57.3px",
+          "after": "89.3px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#center:color",
+          "property": "y",
+          "before": "19.8px",
+          "after": "51.8px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#champion:empty",
+          "property": "y",
+          "before": "-9.9px",
+          "after": "22.1px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/banpick/red_pick_slot_c",
+      "sha256": "2fa50d69aed96e345dbc10ab8fd9733dee76e21b7b499f5fdcf57d7392bc53f9",
+      "properties": [
+        {
+          "path": "pick_slot:color_icon_button",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty",
+          "property": "height",
+          "before": "172px",
+          "after": "236px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#turn_outline:color",
+          "property": "height",
+          "before": "168px",
+          "after": "232px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#bar:color",
+          "property": "height",
+          "before": "170px",
+          "after": "234px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#wait:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#in_turn:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#position:image",
+          "property": "y",
+          "before": "83px",
+          "after": "115px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge_title:label",
+          "property": "y",
+          "before": "32.6px",
+          "after": "64.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_badge:empty",
+          "property": "y",
+          "before": "57.3px",
+          "after": "89.3px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#proficiency_top:empty",
+          "property": "y",
+          "before": "120.6px",
+          "after": "152.6px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#name:label",
+          "property": "y",
+          "before": "70.2px",
+          "after": "102.2px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#center:color",
+          "property": "y",
+          "before": "19.8px",
+          "after": "51.8px"
+        },
+        {
+          "path": "pick_slot:color_icon_button/#done:empty/#champion:empty",
+          "property": "y",
+          "before": "-9.9px",
+          "after": "22.1px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result_c",
+      "sha256": "f86558a7be29d2e8e110bca68f0be3b6b341b88b2a05f5fa28567be72eea186f",
+      "properties": [
+        {
+          "path": "main:match_result_ui/#contents:color",
+          "property": "y",
+          "before": "122px",
+          "after": "158px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color",
+          "property": "height",
+          "before": "828px",
+          "after": "1116px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty",
+          "property": "height",
+          "before": "693px",
+          "after": "981px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty",
+          "property": "height",
+          "before": "605px",
+          "after": "893px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "23px",
+          "after": "62px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/padding:",
+          "property": "top",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#blue_side:empty/padding:",
+          "property": "bottom",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "23px",
+          "after": "62px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/padding:",
+          "property": "top",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#damage:empty/#container:empty/#red_side:empty/padding:",
+          "property": "bottom",
+          "before": "6px",
+          "after": "12px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#stats:empty",
+          "property": "height",
+          "before": "298px",
+          "after": "370px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#stats:empty/child_type: TopToBottom",
+          "property": "spacing",
+          "before": "0px",
+          "after": "9px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty",
+          "property": "height",
+          "before": "365px",
+          "after": "581px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#y:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#graph:canvas",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#events:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        },
+        {
+          "path": "main:match_result_ui/#contents:color/#data:empty/#detail:empty/#gold_diff:empty/#event_popup:empty",
+          "property": "height",
+          "before": "297px",
+          "after": "513px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result_component/blue_damage_slot_c",
+      "sha256": "be7f98419c40c55c935c992b14803068bace62ec2fb7c341661e6f7cca4e14a0",
+      "properties": [
+        {
+          "path": "blue_damage_slot:match_result_damage_slot",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#items:empty",
+          "property": "y",
+          "before": "71px",
+          "after": "83px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#track:color",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#bar:canvas",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#rating:label",
+          "property": "y",
+          "before": "68px",
+          "after": "80px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#kda:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        },
+        {
+          "path": "blue_damage_slot:match_result_damage_slot/#info:empty/#cs:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/match_result_component/red_damage_slot_c",
+      "sha256": "5d170bcf0a6028b09157731c052df9c2fb989592fd31982cf62900518d9420ae",
+      "properties": [
+        {
+          "path": "red_damage_slot:match_result_damage_slot",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty",
+          "property": "height",
+          "before": "100px",
+          "after": "124px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#items:empty",
+          "property": "y",
+          "before": "71px",
+          "after": "83px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#track:color",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#bar:canvas",
+          "property": "y",
+          "before": "40px",
+          "after": "52px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#rating:label",
+          "property": "y",
+          "before": "68px",
+          "after": "80px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#kda:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        },
+        {
+          "path": "red_damage_slot:match_result_damage_slot/#info:empty/#cs:label",
+          "property": "y",
+          "before": "4px",
+          "after": "16px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/messenger",
+      "sha256": "408ab1b4e452aab39dff03fed8313657fe5895b95de22861e34f375da3cf54af",
+      "properties": [
+        {
+          "path": "messenger:messenger_ui",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "messenger:messenger_ui/#background:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "messenger:messenger_ui/#background:color/#list:scroll_view",
+          "property": "height",
+          "before": "886px",
+          "after": "1246px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color",
+          "property": "height",
+          "before": "968px",
+          "after": "1328px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#lines:scroll_view",
+          "property": "height",
+          "before": "520px",
+          "after": "880px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#reply:empty",
+          "property": "y",
+          "before": "688px",
+          "after": "1048px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#empty:label",
+          "property": "y",
+          "before": "420px",
+          "after": "600px"
+        },
+        {
+          "path": "messenger:messenger_ui/#captain_popup_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px"
+        }
+      ]
+    },
+    {
+      "name": "asset/base/ui/layout/messenger_c",
+      "sha256": "12802b06a45ddfd9aa8c67304edb39e75fc91ee6c9ee6e30bc7621aba3ff9454",
+      "properties": [
+        {
+          "path": "messenger:messenger_ui",
+          "property": "height",
+          "before": "776px",
+          "after": "1136px"
+        },
+        {
+          "path": "messenger:messenger_ui/#background:color",
+          "property": "height",
+          "before": "776px",
+          "after": "1136px"
+        },
+        {
+          "path": "messenger:messenger_ui/#background:color/#list:scroll_view",
+          "property": "height",
+          "before": "672px",
+          "after": "1032px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color",
+          "property": "height",
+          "before": "776px",
+          "after": "1136px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#lines:scroll_view",
+          "property": "height",
+          "before": "408px",
+          "after": "768px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#reply:empty",
+          "property": "y",
+          "before": "588px",
+          "after": "948px"
+        },
+        {
+          "path": "messenger:messenger_ui/#chat:color/#empty:label",
+          "property": "y",
+          "before": "340px",
+          "after": "520px"
+        },
+        {
+          "path": "messenger:messenger_ui/#captain_popup_layer:empty",
+          "property": "height",
+          "before": "1080px",
+          "after": "1440px"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Private experimental 4:3 layout; device visual and input validation required.",
+    "Native UI root/default/UI render maps use1920x1440; genuine CursorMoved events retain raw physical positions and existing InputEvent::adjust maps them to the root. Earlier two977 patches affect GameClient camera/minimap branches, not generic UI hit testing;2048x2048 world-camera policy is unchanged.",
+    "Suffix families are included without assuming _d means theme or desktop; no preference/theme is changed.",
+    "The additional cursor bypass applies only through this explicit pinned4:3 profile; no desktop aspect policy, event identity, button ordering, keyboard or touch timing is replaced. Actual device verification of corrected button hit positions remains required.",
+    "Match-specific regular and wide viewports, minimap input and display origins, HUD and match resources reflow inside the existing 1920x1440 UI. Actual match UI/controls require device verification."
+  ],
+  "game_uuid": "d1ee0ffae09c3f5091f7a3ee975c02ae",
+  "original_sections": [
+    {
+      "segment": "__TEXT",
+      "name": "__text",
+      "va": 4294971472,
+      "size": 49508224,
+      "sha256": "847cae8b2008fdfb72b2be61d0ac5a0e8ce2e795fc6f34319a923eca7dd68d59"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__stubs",
+      "va": 4344479696,
+      "size": 7200,
+      "sha256": "105692a1b9752ade9a4e91f996953cf94e02884ac0093f9d4ffc584d679c5cd9"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__stub_helper",
+      "va": 4344486896,
+      "size": 7176,
+      "sha256": "4f8a7ae2d9af755900ecd4a0c1cc31f1377e35f14333e40aff445d806c863447"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__cstring",
+      "va": 4344494072,
+      "size": 566995,
+      "sha256": "4b89ff7628c1b841219a30e78e8152a63903f8ddd04393f34dfedbb57ec66608"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__gcc_except_tab",
+      "va": 4345061068,
+      "size": 1679476,
+      "sha256": "eef2561e9b83acb6d5a1600608912a3280b31883df05622b29ba48d38b9d0816"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__const",
+      "va": 4346740544,
+      "size": 13371948,
+      "sha256": "bf45d0760abc413155d5146c199cbd26e3aba85f3de38fb2ab3e26b4fa0966fe"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__ustring",
+      "va": 4360112492,
+      "size": 942,
+      "sha256": "e2a604757b5d494d6a4ee3250fc944c21f7edf2aea3ae1d66fc135aaf4ef3ae1"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__unwind_info",
+      "va": 4360113436,
+      "size": 769112,
+      "sha256": "37413e5465b182b72f76081991493f01582cb13d94bfd0c2336ecd37fa8cee5c"
+    },
+    {
+      "segment": "__TEXT",
+      "name": "__eh_frame",
+      "va": 4360882552,
+      "size": 4657840,
+      "sha256": "5134a1325ff88f9d36306c3f3ce063b4324999a8d9420c3dc4e3de22e2f5a1e1"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "name": "__got",
+      "va": 4365549568,
+      "size": 408,
+      "sha256": "9386f6b38e8e4e028391d60c21e7b5eefdcbd1f80abda8ba23a37d904b155634"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "name": "__mod_init_func",
+      "va": 4365549976,
+      "size": 40,
+      "sha256": "68fecae51ea831e54f3c119775d01b939de1ebc892f8624a3b2808db69d5fe89"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "name": "__const",
+      "va": 4365550016,
+      "size": 1628352,
+      "sha256": "7ac6059dd2bf6fddbcfee7d0afd1722a1071c17f30f3b440b4157f5b66732da1"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "name": "__cfstring",
+      "va": 4367178368,
+      "size": 96,
+      "sha256": "8a48c94018e529bbddb9aa5038f08623061b902c3789b0fa86dcc8a85592b305"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "name": "__objc_imageinfo",
+      "va": 4367178464,
+      "size": 8,
+      "sha256": "94039884329d3732c577860f40d0dfdf883ff89dac332f87216e692c08892fa2"
+    },
+    {
+      "segment": "__DATA",
+      "name": "__la_symbol_ptr",
+      "va": 4367187968,
+      "size": 4768,
+      "sha256": "778ba4daa6c8540b1293c44fe5d05cf761eef0ce1a7d4ebb471202124d04b83d"
+    },
+    {
+      "segment": "__DATA",
+      "name": "__data",
+      "va": 4367192736,
+      "size": 621264,
+      "sha256": "eee525d4290e257eac0e3ec449f33f7dcbf27fe5cc519da5bd472162c64e1f8b"
+    },
+    {
+      "segment": "__DATA",
+      "name": "__thread_vars",
+      "va": 4367814000,
+      "size": 3384,
+      "sha256": "282d91c5c81edf63d3e6294f8226d1eb5a9cd834eb26dfcec7f745a46a602dcb"
+    },
+    {
+      "segment": "__DATA",
+      "name": "__thread_data",
+      "va": 4367817392,
+      "size": 10260,
+      "sha256": "9f8d123faf981a5afbb1fd3c3c4d3625a9f8ff29f33c5544b1c56f631b193cbd"
+    }
+  ],
+  "native_proof": {
+    "observation_kind": "Native LLVM CLI static observations; not decompilation",
+    "background_owner": "Anonymous frame function0x1008184e4;0x10081851c MOVx19,x0 GameState; no subsequent x19 writes before all six branches",
+    "root_rectangle": "Constructor0x1007d32ac stores zeroXY+2f8,width+300,height+304; initial/reload callers patched; memcpy800-byte root to GameState+1cfb8 gives rectangle+1d2b0. Global Node::update_rect consumes same rectangle at0x10088e928",
+    "background_semantics": "All six branches construct a color rectangle from0x1031dcc00=(0,0,1920,1080), opaque theme RGBA from0x1031fad40/50, submit RenderState::add_command_with_map literal UI at0x1031fbc11; title body color is transparent",
+    "replacement_llvm_decode": [
+      "91404268 add x8,x19,#0x10,lsl#12",
+      "3df4ad00 ldr q0,[x8,#0xd2b0]"
+    ],
+    "x8_liveness": "Each replacement x8 is overwritten with MOVx8,#10 before any later x8 read; overwrites818d2c,818d80,818ed4,818f24,81909c,81927c",
+    "title_viewport": "Unique float4(60,60,870,960)0x1031db7e0 referenced only by named TitleHighlight::handle_title_game0x10023b548/54c; STURq0 GameClient+f8 then memcpy1024. Change only final float height to1320; width/x/y unchanged; this is a native GameClient viewport, not raster asset dimensions.",
+    "title_runtime_override": {
+      "function": "Namedgame::state::fit_title_button_stack0x100245128",
+      "observed_regression": "Actualv3 device screenshot has moved logo but menu top still410: runtime fitter overwrites asset menu Y",
+      "desktop_formula_before": "Y=min(1020-stackHeight,410)",
+      "desktop_formula_after": "Y=min(1200-stackHeight,590)=oldY+180 for every finite stackHeight",
+      "desktop_control_flow": "w20bit0clear enters245298; all branches245314/334 merge245334 then unconditional24533cMOVw10,1200;245340FMOVs3,w10 and245344FSUBs3,s3,s2 do not write w10;245348SUBw10,w10,0x828000 derives590float; no branch target enters340/344/348 skipping33c",
+      "float_bit_derivation": "float1200=0x44960000;0x44960000-0x00828000=0x44138000=float590; SUBw10 does not modify condition flags",
+      "console_formula": "bit0set path245264 loads buttonheight68/spacing12 and fixedY344 at24528c; changedY524 then branches245354, bypassing desktopSUB path",
+      "unchanged_behavior": "Visible-button counting, dynamic button heights, dynamic spacing, four Node Layout variants and all stores remain unchanged",
+      "liveness": "After unchangedFMIN245350,245354MOVw10,1 overwrites scratch before flag stores",
+      "llvm_decode": [
+        "52a8806a mov w10,#0x44030000 (524float bits)",
+        "52a892ca mov w10,#0x44960000 (1200float bits)",
+        "5160a14a sub w10,w10,#0x828,lsl#12 (derive590float bits)"
+      ]
+    },
+    "cursor_letterbox_bypass": {
+      "function": "Anonymous winit-event handler0x1009e75d4; CursorMoved branch starts0x1009e7b60, converges0x1009e806c",
+      "raw_point": "0x1009e7b60 loads original event doublesD9/D8.806c/8070 read actual framebuffer W/H.8074 FCVTs0,D9;8078STRs0,[x19,+408];807cFCVTs1,D8;8080STRs1,[x19,+40c]. Both raw cache stores are preserved.",
+      "old_aspect_test": "8084ADDw10,w8,w8,LSL3 computes9W;8088LSLw11,w9,4 computes16H;808cCMP. Wider-than16:9 branch8094..80cc removes horizontal bars; taller branch80d8..8114 removes vertical bars. Equal aspect already joins8118.",
+      "old_tall_formula": "offset=(H-W*9/16)/2; eventY=(rawY-offset)*H/(H-2*offset). Generic InputEvent::adjust subsequently multiplies rootHeight/H, retaining the obsolete crop despite rootHeight1440.",
+      "observed_paired_runtime": "Evidence ipad-touch-letterbox-023.json: UIKit top-down(72,751.5) at1376x1032 yields physical(144,1503), framebuffer2752x2064, root1920x1440. CapturedHitTester(100.4651108,1158.139526); old offset258,height1548 givesY1158.139534884, residual8.5e-6; correct fullcanvasY1048.604651163.",
+      "replacement_llvm_decode": "14000025 B0x1009e8118; target-PC=0x94; imm26=0x25; little-endian25000014 replaces0b080d0a ADDw10,w8,w8,LSL3.",
+      "new_flow": "8078/8080 cache raw physical coordinates;8084 branches straight to original event constructor8118,8120STPs0,s1. Existing queue append, callbacks, ButtonDown/Up reading same+408/+40c cache, event discriminant, timing and all other event branches are unchanged.",
+      "live_outs": "Target8118 overwritesx8;8120 consumes raw s0/s1;812cCMP refreshes flags before any conditional branch. Skippedw10/w11,s2/s3/s4 and oldw9 have no subsequent read before caller-clobber. No register/stack expansion or call added.",
+      "domain": "Valid positive framebuffer W/H remain the existing native window-size invariant. Coordinates outside window remain outside (no clamping); original equal16:9 path is numerically unchanged. Bypass introduces no division and cannot create NaN/Inf from finite original points. Existing downstream InputEvent::adjust dimension behavior is unchanged; zero framebuffer dimensions remain outside the supported rendering domain.",
+      "scope": "The patch executes only after a genuine CursorMoved event reaches original mouse input processing; resize, scroll, button, keyboard, focus and synthetic PadScript code are untouched. Applying it is opt-in via pinned4:3 profile.",
+      "verification": "Independent original-byte/opcode checks;23 recipe apply/reverse restores all18 original section pins;float32 old-formula capture reproduction and full-canvas grid checks;independent native CLI liveness review. Device post-fix verification pending."
+    },
+    "match_layout": {
+      "regular_viewport_height": [
+        960,
+        1320
+      ],
+      "wide_viewport_height": [
+        974,
+        1334
+      ],
+      "minimap_delta_y": 360,
+      "world_camera_extent": 2048,
+      "regular_placement": "viewport and minimap input/output rects use the same new positions; inspect each HUD style on device",
+      "ui": [
+        "team lineup",
+        "today match",
+        "ban/pick and swap",
+        "in-game HUD and loading overlay",
+        "postmatch results"
+      ]
+    }
+  }
+}

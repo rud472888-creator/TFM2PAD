@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "status": "pinned_binary_metadata_only_not_runtime_validation",
+  "scope": {
+    "binary_metadata_only": true,
+    "binaries_included": false,
+    "account_or_session_state_included": false
+  },
+  "installed_client": {
+    "source_relative": "Steam.AppBundle/Steam/Contents",
+    "bundle_version": "6.1",
+    "public_package_manifest_version": "1792618285",
+    "version_caveat": "Bundle version 6.1 is not the engine release. Cached signed package manifest version is not independently established as the active installed release; binary hashes are the exact observed identity.",
+    "images": [
+      {
+        "path": "MacOS/steamclient.dylib",
+        "sha256": "035722a42c74989fa38c7efe0d735fdb38444e1102c92246652b5d913d019840",
+        "size": 52232096,
+        "arm64_sha256": "c608f74c74f6f90b794e47d51bce5421ef0f3dea0681faa8d10ce155c1a1cd09",
+        "arm64_size": 25493408,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/steamclient.dylib",
+            "kind": "self_install_name",
+            "resolved_relative": "MacOS/steamclient.dylib"
+          },
+          {
+            "path": "@loader_path/libtier0_s.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libtier0_s.dylib"
+          },
+          {
+            "path": "@loader_path/libvstdlib_s.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libvstdlib_s.dylib"
+          },
+          {
+            "path": "@loader_path/libaudio.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libaudio.dylib"
+          },
+          {
+            "path": "/usr/lib/libz.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libz.1.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/IOKit.framework/IOKit"
+          },
+          {
+            "path": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+          },
+          {
+            "path": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Carbon.framework/Carbon"
+          },
+          {
+            "path": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/AppKit.framework/AppKit"
+          },
+          {
+            "path": "/System/Library/Frameworks/OpenAL.framework/Versions/A/OpenAL",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/OpenAL.framework/OpenAL"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreAudio.framework/CoreAudio"
+          },
+          {
+            "path": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Security.framework/Security"
+          },
+          {
+            "path": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/OpenGL.framework/OpenGL"
+          },
+          {
+            "path": "/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices"
+          },
+          {
+            "path": "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+          },
+          {
+            "path": "/usr/lib/libobjc.A.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libobjc.A.dylib"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "MacOS/libaudio.dylib",
+        "sha256": "8beaaa14d68c3a8a1c359dd1673163126113a156fd1a90f155975e1cce5614a0",
+        "size": 254464,
+        "arm64_sha256": "f951dccc5f106b0918be9e95ce7dfa8b8d3c8d42c08127ad0ad7ec68a5f2c628",
+        "arm64_size": 123392,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/libaudio.dylib",
+            "kind": "self_install_name",
+            "resolved_relative": "MacOS/libaudio.dylib"
+          },
+          {
+            "path": "@loader_path/libtier0_s.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libtier0_s.dylib"
+          },
+          {
+            "path": "@loader_path/libvstdlib_s.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libvstdlib_s.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/IOKit.framework/IOKit"
+          },
+          {
+            "path": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "path": "/usr/lib/libobjc.A.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libobjc.A.dylib"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "MacOS/libvstdlib_s.dylib",
+        "sha256": "5df96f8204026b2e76c006372d9ca2bee9cf9634baf21fc20f4595545ee996ad",
+        "size": 538416,
+        "arm64_sha256": "a5911c8c227eea8e5872bdb2054ddb4728144da7abb1f8e90248bb0a03918622",
+        "arm64_size": 276272,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/libvstdlib_s.dylib",
+            "kind": "self_install_name",
+            "resolved_relative": "MacOS/libvstdlib_s.dylib"
+          },
+          {
+            "path": "@loader_path/libtier0_s.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/libtier0_s.dylib"
+          },
+          {
+            "path": "/usr/lib/libiconv.2.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libiconv.2.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/IOKit.framework/IOKit"
+          },
+          {
+            "path": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "path": "/usr/lib/libobjc.A.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libobjc.A.dylib"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "MacOS/libtier0_s.dylib",
+        "sha256": "1ba6133697243e4622bf7ba9390338718e0ecf06fc9282d95e4cfe3fce3bd524",
+        "size": 422336,
+        "arm64_sha256": "c4c3582b957f0a33348299a3f944a827939499437f09cec1a466e33ea9d3564f",
+        "arm64_size": 209344,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/libtier0_s.dylib",
+            "kind": "self_install_name",
+            "resolved_relative": "MacOS/libtier0_s.dylib"
+          },
+          {
+            "path": "@loader_path/crashhandler.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/crashhandler.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "MacOS/crashhandler.dylib",
+        "sha256": "5c5bc64af2522b7db15594dc95dc9992c0b526a9f932b1af1d129cfd615b1cee",
+        "size": 323968,
+        "arm64_sha256": "c5dd300a208ae299a17b781cb19e69748bb1bf06ae7eaad3444a2adf17e9de5e",
+        "arm64_size": 160128,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/crashhandler.dylib",
+            "kind": "self_install_name",
+            "resolved_relative": "MacOS/crashhandler.dylib"
+          },
+          {
+            "path": "/usr/lib/libiconv.2.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libiconv.2.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/IOKit.framework/IOKit"
+          },
+          {
+            "path": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "@loader_path/Frameworks/Breakpad.framework/Versions/A/Breakpad",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/Frameworks/Breakpad.framework/Versions/A/Breakpad"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "path": "/usr/lib/libobjc.A.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libobjc.A.dylib"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "Frameworks/Breakpad.framework/Versions/A/Breakpad",
+        "sha256": "bca3dbe21864b3ecdd86c003042f2fe42c52b0af716f8ec3bb14039bd64de5e4",
+        "size": 351312,
+        "arm64_sha256": "8a97bd9c79046dc67e3fcdcfc3f23e640039173564e55d846ac2c4d08f3a966c",
+        "arm64_size": 121936,
+        "architectures": [
+          "i386",
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@loader_path/Frameworks/Breakpad.framework/Versions/A/Breakpad",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/Frameworks/Breakpad.framework/Versions/A/Breakpad"
+          },
+          {
+            "path": "@loader_path/Resources/breakpadUtilities.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/Frameworks/Breakpad.framework/Versions/A/Resources/breakpadUtilities.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Cocoa.framework/Cocoa"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/usr/lib/libobjc.A.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libobjc.A.dylib"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "Frameworks/Breakpad.framework/Versions/A/Resources/breakpadUtilities.dylib",
+        "sha256": "a354ca72885b36bd22ad00a8723a9a768b5bf91ca7c7786736fea512c744d4b2",
+        "size": 489760,
+        "arm64_sha256": "0c039bb0a29611349e24d9f6314b50dee06ae8eff573ec77d8b029552b0ae24b",
+        "arm64_size": 178464,
+        "architectures": [
+          "i386",
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "@executable_path/../Frameworks/Breakpad.framework/Resources/breakpadUtilities.dylib",
+            "kind": "vendor",
+            "resolved_relative": "MacOS/Frameworks/Breakpad.framework/Versions/A/Resources/breakpadUtilities.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Carbon.framework/Carbon"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          }
+        ],
+        "core_services_imports": null
+      },
+      {
+        "path": "MacOS/ipcserver",
+        "sha256": "fbecbe64401d5a61ce3b5ea4a4b1d07cb5f3d636f4beae021568020773b69bdf",
+        "size": 136080,
+        "arm64_sha256": "c0093a41b685bd633b585e9ca1cbe40c7fa9b43397fb6e254019953b1a99936b",
+        "arm64_size": 70544,
+        "architectures": [
+          "x86_64",
+          "arm64"
+        ],
+        "dependencies": [
+          {
+            "path": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+            "kind": "system",
+            "normalized": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "path": "/usr/lib/libc++.1.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "path": "/usr/lib/libSystem.B.dylib",
+            "kind": "system",
+            "normalized": "/usr/lib/libSystem.B.dylib"
+          }
+        ],
+        "core_services_imports": []
+      }
+    ]
+  },
+  "limitations": [
+    "Eight exact installed-image fingerprints for the build tool allowlist; source binaries must be supplied locally by the user.",
+    "Historical pins do not imply current Steam client compatibility. Changed bytes require review and a new runtime survey; never replace pins automatically.",
+    "The client source argument is its Contents directory containing MacOS and Frameworks. Two duplicate Breakpad alias paths under MacOS are also checked against these same fingerprints.",
+    "No sign-in, game ownership, successful initialization, or gameplay result is asserted."
+  ]
+}
